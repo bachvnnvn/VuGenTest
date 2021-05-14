@@ -70,6 +70,6 @@ Action()
 
 	lr_end_transaction("Test6", LR_AUTO);
 
-	
+	//comment
 	return 0;
 }
