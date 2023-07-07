@@ -7,13 +7,13 @@ NewFunctionHeader=1
 RunType=cci
 ActionLogicExt=action_logic
 LastActiveAction=Action
-MajorVersion=2021
+MajorVersion=2023
 MinorVersion=0
 ActiveTypes=QTWeb
 GenerateTypes=QTWeb
 AdditionalTypes=QTWeb
 DevelopTool=Vugen
-LastModifyVer=2021.0.0.0
+LastModifyVer=2023.0.0.0
 DFERebrandFlag=Done
 ParamLeftBrace={
 ParamRightBrace=}
@@ -44,9 +44,9 @@ vuser_init=0
 Action=0
 vuser_end=0
 [Replayed Actions]
-vuser_init=0
-Action=0
-vuser_end=0
+vuser_init=1
+Action=1
+vuser_end=1
 [Interpreters]
 vuser_init=cci
 Action=cci
@@ -54,10 +54,10 @@ vuser_end=cci
 [TransactionsOrder]
 Order="Test1__*delimiter*__Test2__*delimiter*__Test3__*delimiter*__Test4__*delimiter*__Test5__*delimiter*__Test6"
 [StateManagement]
-LastReplayStatus=0
+LastReplayStatus=1
 [ActiveReplay]
-LastReplayedRunName=
-ActiveRunName=
+LastReplayedRunName=result1
+ActiveRunName=result1
 [Transactions]
 Test1=
 Test2=

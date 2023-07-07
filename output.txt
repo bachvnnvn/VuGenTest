@@ -1,0 +1,100 @@
+Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
+Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
+Virtual User Script started at: 7/5/2023 2:39:50 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\bachv\OneDrive\Desktop\bingtest\\default.cfg"  	[MsgId: MMSG-27141]
+Warning: Failed to get NV emulation handle.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Warning: Failed to get NV emulation handle.
+Action.c(4): Notify: Transaction "Test1" started.
+Action.c(4): Warning: Failed to get NV emulation handle.
+Action.c(6): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(6): Redirecting "http://bing.com" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(6): To location "http://www.bing.com/"  	[MsgId: MMSG-26693]
+Action.c(6): Found resource "http://www.bing.com/rp/N0NZj2UoTgAcpHMO-3FYmE5C7G4.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "http://www.bing.com/rp/8srl0LOx92Ew0yyAq2m2e33cq7I.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "http://www.bing.com/rp/Mt62GUgrdySmO3Hz6WvsY51OVCM.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "http://www.bing.com/rp/FGPg8EdzobIQOzM59dg7NfaOobo.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://r.bing.com/rs/74/fT/jnc,nj/tlifxqsNyCzxIJnRwtQKuZToQQw.js?or=d" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(6): web_url("web_url") was successful, 45983 body bytes, 6133 header bytes  	[MsgId: MMSG-26386]
+Action.c(13): Notify: Transaction "Test1" ended with a "Pass" status (Duration: 2.0211 Wasted Time: 0.4237).
+Action.c(15): Notify: Transaction "Test2" started.
+Action.c(15): Warning: Failed to get NV emulation handle.
+Action.c(17): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(17): Redirecting "http://bing.com" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(17): To location "http://www.bing.com/"  	[MsgId: MMSG-26693]
+Action.c(17): Resource "http://www.bing.com/rp/N0NZj2UoTgAcpHMO-3FYmE5C7G4.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): Resource "http://www.bing.com/rp/8srl0LOx92Ew0yyAq2m2e33cq7I.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): Resource "http://www.bing.com/rp/Mt62GUgrdySmO3Hz6WvsY51OVCM.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): Resource "http://www.bing.com/rp/FGPg8EdzobIQOzM59dg7NfaOobo.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): Found resource "https://r.bing.com/rs/74/fT/jnc,nj/tlifxqsNyCzxIJnRwtQKuZToQQw.js?or=d" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(17): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(17): web_url("web_url") was successful, 44930 body bytes, 1107 header bytes  	[MsgId: MMSG-26386]
+Action.c(24): Notify: Transaction "Test2" ended with a "Stop" status (Duration: 0.4037 Wasted Time: 0.0227).
+Action.c(26): Notify: Transaction "Test3" started.
+Action.c(26): Warning: Failed to get NV emulation handle.
+Action.c(28): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(28): Redirecting "http://bing.com" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(28): To location "http://www.bing.com/"  	[MsgId: MMSG-26693]
+Action.c(28): Resource "http://www.bing.com/rp/N0NZj2UoTgAcpHMO-3FYmE5C7G4.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(28): Resource "http://www.bing.com/rp/8srl0LOx92Ew0yyAq2m2e33cq7I.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(28): Resource "http://www.bing.com/rp/Mt62GUgrdySmO3Hz6WvsY51OVCM.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(28): Resource "http://www.bing.com/rp/FGPg8EdzobIQOzM59dg7NfaOobo.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(28): Found resource "https://r.bing.com/rs/74/fT/jnc,nj/tlifxqsNyCzxIJnRwtQKuZToQQw.js?or=d" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(28): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(28): web_url("web_url") was successful, 44932 body bytes, 1107 header bytes  	[MsgId: MMSG-26386]
+Action.c(35): Notify: Transaction "Test3" ended with a "Pass" status (Duration: 0.4337 Wasted Time: 0.0305).
+Action.c(38): Notify: Transaction "Test4" started.
+Action.c(38): Warning: Failed to get NV emulation handle.
+Action.c(40): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(40): Redirecting "http://bing.com" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(40): To location "http://www.bing.com/"  	[MsgId: MMSG-26693]
+Action.c(40): Resource "http://www.bing.com/rp/N0NZj2UoTgAcpHMO-3FYmE5C7G4.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "http://www.bing.com/rp/8srl0LOx92Ew0yyAq2m2e33cq7I.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "http://www.bing.com/rp/Mt62GUgrdySmO3Hz6WvsY51OVCM.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "http://www.bing.com/rp/FGPg8EdzobIQOzM59dg7NfaOobo.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Found resource "https://r.bing.com/rs/74/fT/jnc,nj/tlifxqsNyCzxIJnRwtQKuZToQQw.js?or=d" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(40): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(40): web_url("web_url") was successful, 44931 body bytes, 1107 header bytes  	[MsgId: MMSG-26386]
+Action.c(47): Notify: Transaction "Test4" ended with a "Pass" status (Duration: 0.4490 Wasted Time: 0.0271).
+Action.c(50): Notify: Transaction "Test5" started.
+Action.c(50): Warning: Failed to get NV emulation handle.
+Action.c(52): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(52): Redirecting "http://bing.com" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(52): To location "http://www.bing.com/"  	[MsgId: MMSG-26693]
+Action.c(52): Resource "http://www.bing.com/rp/N0NZj2UoTgAcpHMO-3FYmE5C7G4.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(52): Resource "http://www.bing.com/rp/8srl0LOx92Ew0yyAq2m2e33cq7I.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(52): Resource "http://www.bing.com/rp/Mt62GUgrdySmO3Hz6WvsY51OVCM.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(52): Resource "http://www.bing.com/rp/FGPg8EdzobIQOzM59dg7NfaOobo.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(52): Found resource "https://r.bing.com/rs/74/fT/jnc,nj/tlifxqsNyCzxIJnRwtQKuZToQQw.js?or=d" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(52): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(52): web_url("web_url") was successful, 44926 body bytes, 1107 header bytes  	[MsgId: MMSG-26386]
+Action.c(59): Notify: Transaction "Test5" ended with a "Pass" status (Duration: 0.4036 Wasted Time: 0.0202).
+Action.c(62): Notify: Transaction "Test6" started.
+Action.c(62): Warning: Failed to get NV emulation handle.
+Action.c(64): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(64): Redirecting "http://bing.com" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(64): To location "http://www.bing.com/"  	[MsgId: MMSG-26693]
+Action.c(64): Resource "http://www.bing.com/rp/N0NZj2UoTgAcpHMO-3FYmE5C7G4.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(64): Resource "http://www.bing.com/rp/8srl0LOx92Ew0yyAq2m2e33cq7I.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(64): Resource "http://www.bing.com/rp/Mt62GUgrdySmO3Hz6WvsY51OVCM.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(64): Resource "http://www.bing.com/rp/FGPg8EdzobIQOzM59dg7NfaOobo.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(64): Found resource "https://r.bing.com/rs/74/fT/jnc,nj/tlifxqsNyCzxIJnRwtQKuZToQQw.js?or=d" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(64): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(64): web_url("web_url") was successful, 44932 body bytes, 1107 header bytes  	[MsgId: MMSG-26386]
+Action.c(71): Notify: Transaction "Test6" ended with a "Pass" status (Duration: 0.4787 Wasted Time: 0.0572).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Warning: Failed to get NV emulation handle.
+Ending action vuser_end.
+Vuser Terminated.

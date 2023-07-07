@@ -1,0 +1,48 @@
+Start auto log messages stack - Iteration 61.	[MsgId: MMSG-10545]
+Action.c(6): Found resource "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): web_url("web_url") was successful, 41458 body bytes, 5938 header bytes  	[MsgId: MMSG-26386]
+Action.c(13): Notify: Transaction "Test1" ended with a "Pass" status (Duration: 0.8077).	[MsgId: MMSG-16873]
+Action.c(15): Notify: Transaction "Test2" started.	[MsgId: MMSG-16999]
+Action.c(17): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(17): Error -27792: Failed to connect to server "bing.com:80": [10061] Connection refused  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 91.	[MsgId: MMSG-10545]
+Action.c(6): Found resource "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): web_url("web_url") was successful, 41459 body bytes, 5938 header bytes  	[MsgId: MMSG-26386]
+Action.c(13): Notify: Transaction "Test1" ended with a "Pass" status (Duration: 1.2999).	[MsgId: MMSG-16873]
+Action.c(15): Notify: Transaction "Test2" started.	[MsgId: MMSG-16999]
+Action.c(17): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(17): Error -27792: Failed to connect to server "bing.com:80": [10061] Connection refused  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 116.	[MsgId: MMSG-10545]
+Action.c(6): Found resource "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): web_url("web_url") was successful, 41499 body bytes, 5938 header bytes  	[MsgId: MMSG-26386]
+Action.c(13): Notify: Transaction "Test1" ended with a "Pass" status (Duration: 0.2812).	[MsgId: MMSG-16873]
+Action.c(15): Notify: Transaction "Test2" started.	[MsgId: MMSG-16999]
+Action.c(17): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(17): Error -27792: Failed to connect to server "bing.com:80": [10061] Connection refused  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 126.	[MsgId: MMSG-10545]
+Action.c(6): Found resource "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): web_url("web_url") was successful, 41549 body bytes, 5938 header bytes  	[MsgId: MMSG-26386]
+Action.c(13): Notify: Transaction "Test1" ended with a "Pass" status (Duration: 0.3867).	[MsgId: MMSG-16873]
+Action.c(15): Notify: Transaction "Test2" started.	[MsgId: MMSG-16999]
+Action.c(17): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(17): Error -27792: Failed to connect to server "bing.com:80": [10061] Connection refused  	[MsgId: MERR-27792]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

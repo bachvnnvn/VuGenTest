@@ -1,0 +1,1194 @@
+Action.c(64): t=259498ms: Request done "http://bing.com"  	[MsgId: MMSG-26000]
+Action.c(64): t=259499ms: Already connected [1] to www.bing.com:80  	[MsgId: MMSG-26000]
+Action.c(64): t=259499ms: 506-byte request headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3536)
+Action.c(64):     GET / HTTP/1.1\r\n
+Action.c(64):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(64):     Accept-Encoding: gzip, deflate\r\n
+Action.c(64):     Accept: */*\r\n
+Action.c(64):     Connection: Keep-Alive\r\n
+Action.c(64):     Host: www.bing.com\r\n
+Action.c(64):     Cookie: SUID=M; MUID=005624D08F8E6FDB32EC36AC8E866EEE; MUIDB=005624D08F8E6FDB32EC36AC8E866
+Action.c(64):     EEE; _EDGE_S=F=1&SID=061A48B5C4DF660838A95AC9C5D767BF; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID
+Action.c(64):     =V=2&GUID=3D50857B29FB42D7A89684D9B1F53635&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCH
+Action.c(64):     LANG=vi; _SS=SID=061A48B5C4DF660838A95AC9C5D767BF\r\n
+Action.c(64):     \r\n
+Action.c(64): t=259596ms: 526-byte response headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3536)
+Action.c(64):     HTTP/1.1 200 OK\r\n
+Action.c(64):     Cache-Control: private, max-age=0\r\n
+Action.c(64):     Content-Length: 40478\r\n
+Action.c(64):     Content-Type: text/html; charset=utf-8\r\n
+Action.c(64):     Content-Encoding: gzip\r\n
+Action.c(64):     Vary: Accept-Encoding\r\n
+Action.c(64):     P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"\r\n
+Action.c(64):     Set-Cookie: MUIDB=005624D08F8E6FDB32EC36AC8E866EEE; expires=Wed, 10-Jan-2024 03:47:30 GMT;
+Action.c(64):      path=/; HttpOnly\r\n
+Action.c(64):     X-UA-Compatible: IE=edge\r\n
+Action.c(64):     X-Cache: CONFIG_NOCACHE\r\n
+Action.c(64):     X-MSEdge-Ref: Ref A: 25A45D0DAF1D47E2A205DFF0521E7FC5 Ref B: HKBEDGE0510 Ref C: 2022-12-16
+Action.c(64):     T03:47:30Z\r\n
+Action.c(64):     Date: Fri, 16 Dec 2022 03:47:29 GMT\r\n
+Action.c(64):     \r\n
+Action.c(64): Resource "http://www.bing.com/rp/MDr1f9aJs4rBVf1F5DAtlALvweY.gz.js?z" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(64): Resource "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js?z" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(64): Resource "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js?z" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(64): Resource "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js?z" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(64): t=259600ms: Request done "http://www.bing.com/"  	[MsgId: MMSG-26000]
+Action.c(64): web_url("web_url") was successful, 40478 body bytes, 750 header bytes  	[MsgId: MMSG-26386]
+Action.c(71): Notify: Transaction "Test6" ended with a "Pass" status (Duration: 0.1445).	[MsgId: MMSG-16873]
+Ending action Action.	[MsgId: MMSG-15918]
+Ending iteration 221.	[MsgId: MMSG-15965]
+Starting iteration 222.	[MsgId: MMSG-15968]
+t=259600ms: Closed connection [0] to bing.com:80 after completing 5 request(s)  	[MsgId: MMSG-26000]
+t=259601ms: Closed connection [1] to www.bing.com:80 after completing 6 request(s)  	[MsgId: MMSG-26000]
+t=259601ms: Closed connection [2] to www.bing.com:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+t=259601ms: Closed connection [3] to www.bing.com:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+t=259601ms: Closed connection [4] to www.bing.com:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Resetting all proxy auto-configuration information  	[MsgId: MMSG-26000]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Notify: Transaction "Test1" started.	[MsgId: MMSG-16999]
+Action.c(6): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(6): t=259601ms: Connecting [0] to host 13.107.21.200:80  	[MsgId: MMSG-26000]
+Action.c(6): t=259643ms: Connected socket [0] from 192.168.100.5:2780 to 13.107.21.200:80 in 42 ms  	[MsgId: MMSG-26000]
+Action.c(6): t=259643ms: 181-byte request headers for "http://bing.com" (RelFrameId=1, Internal ID=3537)
+Action.c(6):     GET / HTTP/1.1\r\n
+Action.c(6):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(6):     Accept-Encoding: gzip, deflate\r\n
+Action.c(6):     Accept: */*\r\n
+Action.c(6):     Connection: Keep-Alive\r\n
+Action.c(6):     Host: bing.com\r\n
+Action.c(6):     \r\n
+Action.c(6): t=259686ms: 224-byte response headers for "http://bing.com" (RelFrameId=1, Internal ID=3537)
+Action.c(6):     HTTP/1.1 301 Moved Permanently\r\n
+Action.c(6):     Location: http://www.bing.com/\r\n
+Action.c(6):     X-MSEdge-Ref: Ref A: A31757BBE4914EC9AA92EA98928DAE9D Ref B: HKBEDGE0612 Ref C: 2022-12-16
+Action.c(6):     T03:47:30Z\r\n
+Action.c(6):     Date: Fri, 16 Dec 2022 03:47:29 GMT\r\n
+Action.c(6):     Content-Length: 0\r\n
+Action.c(6):     \r\n
+Action.c(6): Redirecting "http://bing.com" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(6): To location "http://www.bing.com/"  	[MsgId: MMSG-26693]
+Action.c(6): t=259687ms: Request done "http://bing.com"  	[MsgId: MMSG-26000]
+Action.c(6): t=259687ms: Connecting [1] to host 204.79.197.200:80  	[MsgId: MMSG-26000]
+Action.c(6): t=259726ms: Connected socket [1] from 192.168.100.5:2781 to 204.79.197.200:80 in 39 ms  	[MsgId: MMSG-26000]
+Action.c(6): t=259726ms: 185-byte request headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3538)
+Action.c(6):     GET / HTTP/1.1\r\n
+Action.c(6):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(6):     Accept-Encoding: gzip, deflate\r\n
+Action.c(6):     Accept: */*\r\n
+Action.c(6):     Connection: Keep-Alive\r\n
+Action.c(6):     Host: www.bing.com\r\n
+Action.c(6):     \r\n
+Action.c(6): t=259823ms: 1444-byte response headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3538)
+Action.c(6):     HTTP/1.1 200 OK\r\n
+Action.c(6):     Cache-Control: private, max-age=0\r\n
+Action.c(6):     Content-Length: 40532\r\n
+Action.c(6):     Content-Type: text/html; charset=utf-8\r\n
+Action.c(6):     Content-Encoding: gzip\r\n
+Action.c(6):     Vary: Accept-Encoding\r\n
+Action.c(6):     P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"\r\n
+Action.c(6):     Set-Cookie: SUID=M; domain=.bing.com; expires=Fri, 16-Dec-2022 15:47:30 GMT; path=/; HttpO
+Action.c(6):     nly\r\n
+Action.c(6):     Set-Cookie: MUID=38898D79DD7D66B525729F05DCA46708; domain=.bing.com; expires=Wed, 10-Jan-2
+Action.c(6):     024 03:47:30 GMT; path=/\r\n
+Action.c(6):     Set-Cookie: MUIDB=38898D79DD7D66B525729F05DCA46708; expires=Wed, 10-Jan-2024 03:47:30 GMT;
+Action.c(6):      path=/; HttpOnly\r\n
+Action.c(6):     Set-Cookie: _EDGE_S=F=1&SID=2826103D7320635219E3024172F96210; domain=.bing.com; path=/; Ht
+Action.c(6):     tpOnly\r\n
+Action.c(6):     Set-Cookie: _EDGE_V=1; domain=.bing.com; expires=Wed, 10-Jan-2024 03:47:30 GMT; path=/; Ht
+Action.c(6):     tpOnly\r\n
+Action.c(6):     Set-Cookie: SRCHD=AF=NOFORM; domain=.bing.com; expires=Mon, 16-Dec-2024 03:47:30 GMT; path
+Action.c(6):     =/\r\n
+Action.c(6):     Set-Cookie: SRCHUID=V=2&GUID=38E845E504F24B66A654B47885D9CD73&dmnchg=1; domain=.bing.com; 
+Action.c(6):     expires=Mon, 16-Dec-2024 03:47:30 GMT; path=/\r\n
+Action.c(6):     Set-Cookie: SRCHUSR=DOB=20221216; domain=.bing.com; expires=Mon, 16-Dec-2024 03:47:30 GMT;
+Action.c(6):      path=/\r\n
+Action.c(6):     Set-Cookie: SRCHHPGUSR=SRCHLANG=vi; domain=.bing.com; expires=Mon, 16-Dec-2024 03:47:30 GM
+Action.c(6):     T; path=/\r\n
+Action.c(6):     Set-Cookie: _SS=SID=2826103D7320635219E3024172F96210; domain=.bing.com; path=/\r\n
+Action.c(6):     X-UA-Compatible: IE=edge\r\n
+Action.c(6):     X-Cache: CONFIG_NOCACHE\r\n
+Action.c(6):     X-MSEdge-Ref: Ref A: 5BDDA604762D44E185B19E50592E40C7 Ref B: HKBEDGE0613 Ref C: 2022-12-16
+Action.c(6):     T03:47:30Z\r\n
+Action.c(6):     Date: Fri, 16 Dec 2022 03:47:30 GMT\r\n
+Action.c(6):     \r\n
+Action.c(6): Found resource "http://www.bing.com/rp/MDr1f9aJs4rBVf1F5DAtlALvweY.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): t=259826ms: Connecting [2] to host 204.79.197.200:80  	[MsgId: MMSG-26000]
+Action.c(6): t=259827ms: Connecting [3] to host 204.79.197.200:80  	[MsgId: MMSG-26000]
+Action.c(6): t=259827ms: Connecting [4] to host 204.79.197.200:80  	[MsgId: MMSG-26000]
+Action.c(6): t=259827ms: Closed connection [0] to bing.com:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(6): t=259827ms: Connecting [0] to host 204.79.197.200:80  	[MsgId: MMSG-26000]
+Action.c(6): t=259863ms: Request done "http://www.bing.com/"  	[MsgId: MMSG-26000]
+Action.c(6): t=259864ms: Connected socket [2] from 192.168.100.5:2782 to 204.79.197.200:80 in 38 ms  	[MsgId: MMSG-26000]
+Action.c(6): t=259864ms: 573-byte request headers for "http://www.bing.com/rp/MDr1f9aJs4rBVf1F5DAtlALvweY.gz.js" (RelFrameId=, Internal ID=3539)
+Action.c(6):     GET /rp/MDr1f9aJs4rBVf1F5DAtlALvweY.gz.js HTTP/1.1\r\n
+Action.c(6):     Referer: http://www.bing.com/\r\n
+Action.c(6):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(6):     Accept-Encoding: gzip, deflate\r\n
+Action.c(6):     Accept: */*\r\n
+Action.c(6):     Connection: Keep-Alive\r\n
+Action.c(6):     Host: www.bing.com\r\n
+Action.c(6):     Cookie: SUID=M; MUID=38898D79DD7D66B525729F05DCA46708; MUIDB=38898D79DD7D66B525729F05DCA46
+Action.c(6):     708; _EDGE_S=F=1&SID=2826103D7320635219E3024172F96210; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID
+Action.c(6):     =V=2&GUID=38E845E504F24B66A654B47885D9CD73&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCH
+Action.c(6):     LANG=vi; _SS=SID=2826103D7320635219E3024172F96210\r\n
+Action.c(6):     \r\n
+Action.c(6): t=259864ms: Connected socket [3] from 192.168.100.5:2783 to 204.79.197.200:80 in 37 ms  	[MsgId: MMSG-26000]
+Action.c(6): t=259864ms: 573-byte request headers for "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js" (RelFrameId=, Internal ID=3540)
+Action.c(6):     GET /rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js HTTP/1.1\r\n
+Action.c(6):     Referer: http://www.bing.com/\r\n
+Action.c(6):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(6):     Accept-Encoding: gzip, deflate\r\n
+Action.c(6):     Accept: */*\r\n
+Action.c(6):     Connection: Keep-Alive\r\n
+Action.c(6):     Host: www.bing.com\r\n
+Action.c(6):     Cookie: SUID=M; MUID=38898D79DD7D66B525729F05DCA46708; MUIDB=38898D79DD7D66B525729F05DCA46
+Action.c(6):     708; _EDGE_S=F=1&SID=2826103D7320635219E3024172F96210; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID
+Action.c(6):     =V=2&GUID=38E845E504F24B66A654B47885D9CD73&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCH
+Action.c(6):     LANG=vi; _SS=SID=2826103D7320635219E3024172F96210\r\n
+Action.c(6):     \r\n
+Action.c(6): t=259865ms: Connected socket [4] from 192.168.100.5:2784 to 204.79.197.200:80 in 38 ms  	[MsgId: MMSG-26000]
+Action.c(6): t=259865ms: 573-byte request headers for "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js" (RelFrameId=, Internal ID=3541)
+Action.c(6):     GET /rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js HTTP/1.1\r\n
+Action.c(6):     Referer: http://www.bing.com/\r\n
+Action.c(6):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(6):     Accept-Encoding: gzip, deflate\r\n
+Action.c(6):     Accept: */*\r\n
+Action.c(6):     Connection: Keep-Alive\r\n
+Action.c(6):     Host: www.bing.com\r\n
+Action.c(6):     Cookie: SUID=M; MUID=38898D79DD7D66B525729F05DCA46708; MUIDB=38898D79DD7D66B525729F05DCA46
+Action.c(6):     708; _EDGE_S=F=1&SID=2826103D7320635219E3024172F96210; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID
+Action.c(6):     =V=2&GUID=38E845E504F24B66A654B47885D9CD73&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCH
+Action.c(6):     LANG=vi; _SS=SID=2826103D7320635219E3024172F96210\r\n
+Action.c(6):     \r\n
+Action.c(6): t=259866ms: Connected socket [0] from 192.168.100.5:2785 to 204.79.197.200:80 in 39 ms  	[MsgId: MMSG-26000]
+Action.c(6): t=259866ms: 573-byte request headers for "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js" (RelFrameId=, Internal ID=3542)
+Action.c(6):     GET /rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js HTTP/1.1\r\n
+Action.c(6):     Referer: http://www.bing.com/\r\n
+Action.c(6):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(6):     Accept-Encoding: gzip, deflate\r\n
+Action.c(6):     Accept: */*\r\n
+Action.c(6):     Connection: Keep-Alive\r\n
+Action.c(6):     Host: www.bing.com\r\n
+Action.c(6):     Cookie: SUID=M; MUID=38898D79DD7D66B525729F05DCA46708; MUIDB=38898D79DD7D66B525729F05DCA46
+Action.c(6):     708; _EDGE_S=F=1&SID=2826103D7320635219E3024172F96210; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID
+Action.c(6):     =V=2&GUID=38E845E504F24B66A654B47885D9CD73&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCH
+Action.c(6):     LANG=vi; _SS=SID=2826103D7320635219E3024172F96210\r\n
+Action.c(6):     \r\n
+Action.c(6): t=259904ms: 1063-byte response headers for "http://www.bing.com/rp/MDr1f9aJs4rBVf1F5DAtlALvweY.gz.js" (RelFrameId=, Internal ID=3539)
+Action.c(6):     HTTP/1.1 200 OK\r\n
+Action.c(6):     Cache-Control: public, max-age=432000\r\n
+Action.c(6):     Content-Length: 162\r\n
+Action.c(6):     Content-Type: application/x-javascript; charset=utf-8\r\n
+Action.c(6):     Content-Encoding: gzip\r\n
+Action.c(6):     Content-MD5: IHjOpTMXJrZ3Ud4HhBL6IQ==\r\n
+Action.c(6):     Last-Modified: Wed, 24 Jun 2020 04:38:24 GMT\r\n
+Action.c(6):     ETag: 0x8D817F86E683853\r\n
+Action.c(6):     Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0\r\n
+Action.c(6):     X-Cache: TCP_HIT\r\n
+Action.c(6):     x-ms-request-id: 3a45c729-701e-0017-230e-0f3bf1000000\r\n
+Action.c(6):     x-ms-version: 2009-09-19\r\n
+Action.c(6):     x-ms-lease-status: unlocked\r\n
+Action.c(6):     x-ms-blob-type: BlockBlob\r\n
+Action.c(6):     Access-Control-Allow-Origin: *\r\n
+Action.c(6):     X-Azure-Ref-OriginShield: Ref A: DE5A47DF16F94A808B30EC0DDB96E1CE Ref B: SG2EDGE2409 Ref C
+Action.c(6):     : 2022-12-15T11:33:40Z\r\n
+Action.c(6):     timing-allow-origin: *\r\n
+Action.c(6):     cross-origin-resource-policy: cross-origin\r\n
+Action.c(6):     nel: {"report_to":"network-errors","max_age":604800,"success_fraction":0.001,"failure_frac
+Action.c(6):     tion":1.0}\r\n
+Action.c(6):     report-to: {"group":"network-errors","max_age":604800,"endpoints":[{"url":"https://aefd.ne
+Action.c(6):     lreports.net/api/report?cat=bingaot"}]}\r\n
+Action.c(6):     X-MSEdge-Ref: Ref A: DF5DDF3365624FAC9D7F7D31D04389AE Ref B: HKBEDGE0512 Ref C: 2022-12-16
+Action.c(6):     T03:47:30Z\r\n
+Action.c(6):     Date: Fri, 16 Dec 2022 03:47:29 GMT\r\n
+Action.c(6):     \r\n
+Action.c(6): t=259906ms: Request done "http://www.bing.com/rp/MDr1f9aJs4rBVf1F5DAtlALvweY.gz.js"  	[MsgId: MMSG-26000]
+Action.c(6): t=259906ms: 1063-byte response headers for "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js" (RelFrameId=, Internal ID=3541)
+Action.c(6):     HTTP/1.1 200 OK\r\n
+Action.c(6):     Cache-Control: public, max-age=432000\r\n
+Action.c(6):     Content-Length: 293\r\n
+Action.c(6):     Content-Type: application/x-javascript; charset=utf-8\r\n
+Action.c(6):     Content-Encoding: gzip\r\n
+Action.c(6):     Content-MD5: tJ3atKMUU9A6FxXCYWJhEw==\r\n
+Action.c(6):     Last-Modified: Wed, 24 Jun 2020 04:40:23 GMT\r\n
+Action.c(6):     ETag: 0x8D817F8B55178B4\r\n
+Action.c(6):     Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0\r\n
+Action.c(6):     X-Cache: TCP_HIT\r\n
+Action.c(6):     x-ms-request-id: 85d796df-e01e-0077-4e18-0e476e000000\r\n
+Action.c(6):     x-ms-version: 2009-09-19\r\n
+Action.c(6):     x-ms-lease-status: unlocked\r\n
+Action.c(6):     x-ms-blob-type: BlockBlob\r\n
+Action.c(6):     Access-Control-Allow-Origin: *\r\n
+Action.c(6):     X-Azure-Ref-OriginShield: Ref A: 9B7A3F5917B54DDEB3B6737C792DE747 Ref B: SG2EDGE2521 Ref C
+Action.c(6):     : 2022-12-15T16:00:18Z\r\n
+Action.c(6):     timing-allow-origin: *\r\n
+Action.c(6):     cross-origin-resource-policy: cross-origin\r\n
+Action.c(6):     nel: {"report_to":"network-errors","max_age":604800,"success_fraction":0.001,"failure_frac
+Action.c(6):     tion":1.0}\r\n
+Action.c(6):     report-to: {"group":"network-errors","max_age":604800,"endpoints":[{"url":"https://aefd.ne
+Action.c(6):     lreports.net/api/report?cat=bingaot"}]}\r\n
+Action.c(6):     X-MSEdge-Ref: Ref A: DCEE11B3D1F445D98B866FAB6D6B035C Ref B: HKBEDGE0606 Ref C: 2022-12-16
+Action.c(6):     T03:47:30Z\r\n
+Action.c(6):     Date: Fri, 16 Dec 2022 03:47:30 GMT\r\n
+Action.c(6):     \r\n
+Action.c(6): t=259907ms: Request done "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js"  	[MsgId: MMSG-26000]
+Action.c(6): t=259907ms: 1063-byte response headers for "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js" (RelFrameId=, Internal ID=3542)
+Action.c(6):     HTTP/1.1 200 OK\r\n
+Action.c(6):     Cache-Control: public, max-age=432000\r\n
+Action.c(6):     Content-Length: 290\r\n
+Action.c(6):     Content-Type: application/x-javascript; charset=utf-8\r\n
+Action.c(6):     Content-Encoding: gzip\r\n
+Action.c(6):     Content-MD5: /6QX0ap488BYFDOjAoirJA==\r\n
+Action.c(6):     Last-Modified: Wed, 24 Jun 2020 04:46:57 GMT\r\n
+Action.c(6):     ETag: 0x8D817F99FEB2345\r\n
+Action.c(6):     Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0\r\n
+Action.c(6):     X-Cache: TCP_HIT\r\n
+Action.c(6):     x-ms-request-id: 48629e6f-401e-0033-310d-0ecd51000000\r\n
+Action.c(6):     x-ms-version: 2009-09-19\r\n
+Action.c(6):     x-ms-lease-status: unlocked\r\n
+Action.c(6):     x-ms-blob-type: BlockBlob\r\n
+Action.c(6):     Access-Control-Allow-Origin: *\r\n
+Action.c(6):     X-Azure-Ref-OriginShield: Ref A: 7B449029E5094D94A9037DF47BC898A7 Ref B: SG2EDGE2606 Ref C
+Action.c(6):     : 2022-12-15T17:21:37Z\r\n
+Action.c(6):     timing-allow-origin: *\r\n
+Action.c(6):     cross-origin-resource-policy: cross-origin\r\n
+Action.c(6):     nel: {"report_to":"network-errors","max_age":604800,"success_fraction":0.001,"failure_frac
+Action.c(6):     tion":1.0}\r\n
+Action.c(6):     report-to: {"group":"network-errors","max_age":604800,"endpoints":[{"url":"https://aefd.ne
+Action.c(6):     lreports.net/api/report?cat=bingaot"}]}\r\n
+Action.c(6):     X-MSEdge-Ref: Ref A: DEE47AFB29BA4DBE906C677261B0EC4F Ref B: HKBEDGE0610 Ref C: 2022-12-16
+Action.c(6):     T03:47:30Z\r\n
+Action.c(6):     Date: Fri, 16 Dec 2022 03:47:29 GMT\r\n
+Action.c(6):     \r\n
+Action.c(6): t=259909ms: Request done "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js"  	[MsgId: MMSG-26000]
+Action.c(6): t=259909ms: 1063-byte response headers for "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js" (RelFrameId=, Internal ID=3540)
+Action.c(6):     HTTP/1.1 200 OK\r\n
+Action.c(6):     Cache-Control: public, max-age=432000\r\n
+Action.c(6):     Content-Length: 261\r\n
+Action.c(6):     Content-Type: application/x-javascript; charset=utf-8\r\n
+Action.c(6):     Content-Encoding: gzip\r\n
+Action.c(6):     Content-MD5: g2OBYaLoMQ/7pG1XxIWwmA==\r\n
+Action.c(6):     Last-Modified: Wed, 24 Jun 2020 04:45:15 GMT\r\n
+Action.c(6):     ETag: 0x8D817F963A5AFA9\r\n
+Action.c(6):     Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0\r\n
+Action.c(6):     X-Cache: TCP_HIT\r\n
+Action.c(6):     x-ms-request-id: 6490fc60-101e-0073-4f16-0eca69000000\r\n
+Action.c(6):     x-ms-version: 2009-09-19\r\n
+Action.c(6):     x-ms-lease-status: unlocked\r\n
+Action.c(6):     x-ms-blob-type: BlockBlob\r\n
+Action.c(6):     Access-Control-Allow-Origin: *\r\n
+Action.c(6):     X-Azure-Ref-OriginShield: Ref A: 3920781EA55F4DFF837A34ECDBBA6BEB Ref B: SG2EDGE2609 Ref C
+Action.c(6):     : 2022-12-15T14:31:17Z\r\n
+Action.c(6):     timing-allow-origin: *\r\n
+Action.c(6):     cross-origin-resource-policy: cross-origin\r\n
+Action.c(6):     nel: {"report_to":"network-errors","max_age":604800,"success_fraction":0.001,"failure_frac
+Action.c(6):     tion":1.0}\r\n
+Action.c(6):     report-to: {"group":"network-errors","max_age":604800,"endpoints":[{"url":"https://aefd.ne
+Action.c(6):     lreports.net/api/report?cat=bingaot"}]}\r\n
+Action.c(6):     X-MSEdge-Ref: Ref A: 85F89266F9C746F7B247FC6E99BE6F8B Ref B: HKBEDGE0519 Ref C: 2022-12-16
+Action.c(6):     T03:47:30Z\r\n
+Action.c(6):     Date: Fri, 16 Dec 2022 03:47:29 GMT\r\n
+Action.c(6):     \r\n
+Action.c(6): t=259910ms: Request done "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js"  	[MsgId: MMSG-26000]
+Action.c(6): web_url("web_url") was successful, 41538 body bytes, 5920 header bytes  	[MsgId: MMSG-26386]
+Action.c(13): Notify: Transaction "Test1" ended with a "Pass" status (Duration: 0.3090).	[MsgId: MMSG-16873]
+Action.c(15): Notify: Transaction "Test2" started.	[MsgId: MMSG-16999]
+Action.c(17): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(17): t=259910ms: Closed connection [0] to www.bing.com:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(17): t=259911ms: Connecting [0] to host 13.107.21.200:80  	[MsgId: MMSG-26000]
+Action.c(17): t=259950ms: Connected socket [0] from 192.168.100.5:2786 to 13.107.21.200:80 in 39 ms  	[MsgId: MMSG-26000]
+Action.c(17): t=259950ms: 462-byte request headers for "http://bing.com" (RelFrameId=1, Internal ID=3543)
+Action.c(17):     GET / HTTP/1.1\r\n
+Action.c(17):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(17):     Accept-Encoding: gzip, deflate\r\n
+Action.c(17):     Accept: */*\r\n
+Action.c(17):     Connection: Keep-Alive\r\n
+Action.c(17):     Host: bing.com\r\n
+Action.c(17):     Cookie: SUID=M; MUID=38898D79DD7D66B525729F05DCA46708; _EDGE_S=F=1&SID=2826103D7320635219E
+Action.c(17):     3024172F96210; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID=V=2&GUID=38E845E504F24B66A654B47885D9CD
+Action.c(17):     73&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCHLANG=vi; _SS=SID=2826103D7320635219E3024
+Action.c(17):     172F96210\r\n
+Action.c(17):     \r\n
+Action.c(17): t=259991ms: 224-byte response headers for "http://bing.com" (RelFrameId=1, Internal ID=3543)
+Action.c(17):     HTTP/1.1 301 Moved Permanently\r\n
+Action.c(17):     Location: http://www.bing.com/\r\n
+Action.c(17):     X-MSEdge-Ref: Ref A: 50F784C85BBC4B358AF39A8D98E0C79C Ref B: HKBEDGE0511 Ref C: 2022-12-16
+Action.c(17):     T03:47:30Z\r\n
+Action.c(17):     Date: Fri, 16 Dec 2022 03:47:29 GMT\r\n
+Action.c(17):     Content-Length: 0\r\n
+Action.c(17):     \r\n
+Action.c(17): Redirecting "http://bing.com" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(17): To location "http://www.bing.com/"  	[MsgId: MMSG-26693]
+Action.c(17): t=259992ms: Request done "http://bing.com"  	[MsgId: MMSG-26000]
+Action.c(17): t=259992ms: Already connected [1] to www.bing.com:80  	[MsgId: MMSG-26000]
+Action.c(17): t=259992ms: 506-byte request headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3544)
+Action.c(17):     GET / HTTP/1.1\r\n
+Action.c(17):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(17):     Accept-Encoding: gzip, deflate\r\n
+Action.c(17):     Accept: */*\r\n
+Action.c(17):     Connection: Keep-Alive\r\n
+Action.c(17):     Host: www.bing.com\r\n
+Action.c(17):     Cookie: SUID=M; MUID=38898D79DD7D66B525729F05DCA46708; MUIDB=38898D79DD7D66B525729F05DCA46
+Action.c(17):     708; _EDGE_S=F=1&SID=2826103D7320635219E3024172F96210; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID
+Action.c(17):     =V=2&GUID=38E845E504F24B66A654B47885D9CD73&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCH
+Action.c(17):     LANG=vi; _SS=SID=2826103D7320635219E3024172F96210\r\n
+Action.c(17):     \r\n
+Action.c(17): t=260092ms: 526-byte response headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3544)
+Action.c(17):     HTTP/1.1 200 OK\r\n
+Action.c(17):     Cache-Control: private, max-age=0\r\n
+Action.c(17):     Content-Length: 40473\r\n
+Action.c(17):     Content-Type: text/html; charset=utf-8\r\n
+Action.c(17):     Content-Encoding: gzip\r\n
+Action.c(17):     Vary: Accept-Encoding\r\n
+Action.c(17):     P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"\r\n
+Action.c(17):     Set-Cookie: MUIDB=38898D79DD7D66B525729F05DCA46708; expires=Wed, 10-Jan-2024 03:47:30 GMT;
+Action.c(17):      path=/; HttpOnly\r\n
+Action.c(17):     X-UA-Compatible: IE=edge\r\n
+Action.c(17):     X-Cache: CONFIG_NOCACHE\r\n
+Action.c(17):     X-MSEdge-Ref: Ref A: 81BC50D319EE42BCB84BD7438A50BBA6 Ref B: HKBEDGE0613 Ref C: 2022-12-16
+Action.c(17):     T03:47:30Z\r\n
+Action.c(17):     Date: Fri, 16 Dec 2022 03:47:30 GMT\r\n
+Action.c(17):     \r\n
+Action.c(17): Resource "http://www.bing.com/rp/MDr1f9aJs4rBVf1F5DAtlALvweY.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): Resource "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): Resource "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): Resource "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): t=260095ms: Request done "http://www.bing.com/"  	[MsgId: MMSG-26000]
+Action.c(17): web_url("web_url") was successful, 40473 body bytes, 750 header bytes  	[MsgId: MMSG-26386]
+Action.c(24): Notify: Transaction "Test2" ended with a "Pass" status (Duration: 0.1847).	[MsgId: MMSG-16873]
+Action.c(26): Notify: Transaction "Test3" started.	[MsgId: MMSG-16999]
+Action.c(28): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(28): t=260095ms: Already connected [0] to bing.com:80  	[MsgId: MMSG-26000]
+Action.c(28): t=260095ms: 462-byte request headers for "http://bing.com" (RelFrameId=1, Internal ID=3545)
+Action.c(28):     GET / HTTP/1.1\r\n
+Action.c(28):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(28):     Accept-Encoding: gzip, deflate\r\n
+Action.c(28):     Accept: */*\r\n
+Action.c(28):     Connection: Keep-Alive\r\n
+Action.c(28):     Host: bing.com\r\n
+Action.c(28):     Cookie: SUID=M; MUID=38898D79DD7D66B525729F05DCA46708; _EDGE_S=F=1&SID=2826103D7320635219E
+Action.c(28):     3024172F96210; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID=V=2&GUID=38E845E504F24B66A654B47885D9CD
+Action.c(28):     73&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCHLANG=vi; _SS=SID=2826103D7320635219E3024
+Action.c(28):     172F96210\r\n
+Action.c(28):     \r\n
+Action.c(28): t=260137ms: 224-byte response headers for "http://bing.com" (RelFrameId=1, Internal ID=3545)
+Action.c(28):     HTTP/1.1 301 Moved Permanently\r\n
+Action.c(28):     Location: http://www.bing.com/\r\n
+Action.c(28):     X-MSEdge-Ref: Ref A: DA580F75A9744A31A285A65A742DEDF8 Ref B: HKBEDGE0511 Ref C: 2022-12-16
+Action.c(28):     T03:47:30Z\r\n
+Action.c(28):     Date: Fri, 16 Dec 2022 03:47:29 GMT\r\n
+Action.c(28):     Content-Length: 0\r\n
+Action.c(28):     \r\n
+Action.c(28): Redirecting "http://bing.com" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(28): To location "http://www.bing.com/"  	[MsgId: MMSG-26693]
+Action.c(28): t=260138ms: Request done "http://bing.com"  	[MsgId: MMSG-26000]
+Action.c(28): t=260138ms: Already connected [1] to www.bing.com:80  	[MsgId: MMSG-26000]
+Action.c(28): t=260138ms: 506-byte request headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3546)
+Action.c(28):     GET / HTTP/1.1\r\n
+Action.c(28):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(28):     Accept-Encoding: gzip, deflate\r\n
+Action.c(28):     Accept: */*\r\n
+Action.c(28):     Connection: Keep-Alive\r\n
+Action.c(28):     Host: www.bing.com\r\n
+Action.c(28):     Cookie: SUID=M; MUID=38898D79DD7D66B525729F05DCA46708; MUIDB=38898D79DD7D66B525729F05DCA46
+Action.c(28):     708; _EDGE_S=F=1&SID=2826103D7320635219E3024172F96210; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID
+Action.c(28):     =V=2&GUID=38E845E504F24B66A654B47885D9CD73&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCH
+Action.c(28):     LANG=vi; _SS=SID=2826103D7320635219E3024172F96210\r\n
+Action.c(28):     \r\n
+Action.c(28): t=260239ms: 526-byte response headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3546)
+Action.c(28):     HTTP/1.1 200 OK\r\n
+Action.c(28):     Cache-Control: private, max-age=0\r\n
+Action.c(28):     Content-Length: 40472\r\n
+Action.c(28):     Content-Type: text/html; charset=utf-8\r\n
+Action.c(28):     Content-Encoding: gzip\r\n
+Action.c(28):     Vary: Accept-Encoding\r\n
+Action.c(28):     P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"\r\n
+Action.c(28):     Set-Cookie: MUIDB=38898D79DD7D66B525729F05DCA46708; expires=Wed, 10-Jan-2024 03:47:30 GMT;
+Action.c(28):      path=/; HttpOnly\r\n
+Action.c(28):     X-UA-Compatible: IE=edge\r\n
+Action.c(28):     X-Cache: CONFIG_NOCACHE\r\n
+Action.c(28):     X-MSEdge-Ref: Ref A: 7705CC0A23D141FC87F621DDB6715C08 Ref B: HKBEDGE0613 Ref C: 2022-12-16
+Action.c(28):     T03:47:30Z\r\n
+Action.c(28):     Date: Fri, 16 Dec 2022 03:47:30 GMT\r\n
+Action.c(28):     \r\n
+Action.c(28): Resource "http://www.bing.com/rp/MDr1f9aJs4rBVf1F5DAtlALvweY.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(28): Resource "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(28): Resource "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(28): Resource "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(28): t=260276ms: Request done "http://www.bing.com/"  	[MsgId: MMSG-26000]
+Action.c(28): web_url("web_url") was successful, 40472 body bytes, 750 header bytes  	[MsgId: MMSG-26386]
+Action.c(35): Notify: Transaction "Test3" ended with a "Pass" status (Duration: 0.1809).	[MsgId: MMSG-16873]
+Action.c(38): Notify: Transaction "Test4" started.	[MsgId: MMSG-16999]
+Action.c(40): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(40): t=260276ms: Already connected [0] to bing.com:80  	[MsgId: MMSG-26000]
+Action.c(40): t=260276ms: 462-byte request headers for "http://bing.com" (RelFrameId=1, Internal ID=3547)
+Action.c(40):     GET / HTTP/1.1\r\n
+Action.c(40):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(40):     Accept-Encoding: gzip, deflate\r\n
+Action.c(40):     Accept: */*\r\n
+Action.c(40):     Connection: Keep-Alive\r\n
+Action.c(40):     Host: bing.com\r\n
+Action.c(40):     Cookie: SUID=M; MUID=38898D79DD7D66B525729F05DCA46708; _EDGE_S=F=1&SID=2826103D7320635219E
+Action.c(40):     3024172F96210; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID=V=2&GUID=38E845E504F24B66A654B47885D9CD
+Action.c(40):     73&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCHLANG=vi; _SS=SID=2826103D7320635219E3024
+Action.c(40):     172F96210\r\n
+Action.c(40):     \r\n
+Action.c(40): t=260319ms: 224-byte response headers for "http://bing.com" (RelFrameId=1, Internal ID=3547)
+Action.c(40):     HTTP/1.1 301 Moved Permanently\r\n
+Action.c(40):     Location: http://www.bing.com/\r\n
+Action.c(40):     X-MSEdge-Ref: Ref A: 235B1453BD3D4C3FA6B2C58826106EC4 Ref B: HKBEDGE0511 Ref C: 2022-12-16
+Action.c(40):     T03:47:31Z\r\n
+Action.c(40):     Date: Fri, 16 Dec 2022 03:47:30 GMT\r\n
+Action.c(40):     Content-Length: 0\r\n
+Action.c(40):     \r\n
+Action.c(40): Redirecting "http://bing.com" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(40): To location "http://www.bing.com/"  	[MsgId: MMSG-26693]
+Action.c(40): t=260319ms: Request done "http://bing.com"  	[MsgId: MMSG-26000]
+Action.c(40): t=260319ms: Already connected [1] to www.bing.com:80  	[MsgId: MMSG-26000]
+Action.c(40): t=260319ms: 506-byte request headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3548)
+Action.c(40):     GET / HTTP/1.1\r\n
+Action.c(40):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(40):     Accept-Encoding: gzip, deflate\r\n
+Action.c(40):     Accept: */*\r\n
+Action.c(40):     Connection: Keep-Alive\r\n
+Action.c(40):     Host: www.bing.com\r\n
+Action.c(40):     Cookie: SUID=M; MUID=38898D79DD7D66B525729F05DCA46708; MUIDB=38898D79DD7D66B525729F05DCA46
+Action.c(40):     708; _EDGE_S=F=1&SID=2826103D7320635219E3024172F96210; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID
+Action.c(40):     =V=2&GUID=38E845E504F24B66A654B47885D9CD73&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCH
+Action.c(40):     LANG=vi; _SS=SID=2826103D7320635219E3024172F96210\r\n
+Action.c(40):     \r\n
+Action.c(40): t=260419ms: 526-byte response headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3548)
+Action.c(40):     HTTP/1.1 200 OK\r\n
+Action.c(40):     Cache-Control: private, max-age=0\r\n
+Action.c(40):     Content-Length: 40471\r\n
+Action.c(40):     Content-Type: text/html; charset=utf-8\r\n
+Action.c(40):     Content-Encoding: gzip\r\n
+Action.c(40):     Vary: Accept-Encoding\r\n
+Action.c(40):     P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"\r\n
+Action.c(40):     Set-Cookie: MUIDB=38898D79DD7D66B525729F05DCA46708; expires=Wed, 10-Jan-2024 03:47:31 GMT;
+Action.c(40):      path=/; HttpOnly\r\n
+Action.c(40):     X-UA-Compatible: IE=edge\r\n
+Action.c(40):     X-Cache: CONFIG_NOCACHE\r\n
+Action.c(40):     X-MSEdge-Ref: Ref A: 4497F1C67B9542CD9AD1C723621D68D0 Ref B: HKBEDGE0613 Ref C: 2022-12-16
+Action.c(40):     T03:47:31Z\r\n
+Action.c(40):     Date: Fri, 16 Dec 2022 03:47:30 GMT\r\n
+Action.c(40):     \r\n
+Action.c(40): Resource "http://www.bing.com/rp/MDr1f9aJs4rBVf1F5DAtlALvweY.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): t=260422ms: Request done "http://www.bing.com/"  	[MsgId: MMSG-26000]
+Action.c(40): web_url("web_url") was successful, 40471 body bytes, 750 header bytes  	[MsgId: MMSG-26386]
+Action.c(47): Notify: Transaction "Test4" ended with a "Pass" status (Duration: 0.1460).	[MsgId: MMSG-16873]
+Action.c(50): Notify: Transaction "Test5" started.	[MsgId: MMSG-16999]
+Action.c(52): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(52): t=260422ms: Already connected [0] to bing.com:80  	[MsgId: MMSG-26000]
+Action.c(52): t=260423ms: 462-byte request headers for "http://bing.com" (RelFrameId=1, Internal ID=3549)
+Action.c(52):     GET / HTTP/1.1\r\n
+Action.c(52):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(52):     Accept-Encoding: gzip, deflate\r\n
+Action.c(52):     Accept: */*\r\n
+Action.c(52):     Connection: Keep-Alive\r\n
+Action.c(52):     Host: bing.com\r\n
+Action.c(52):     Cookie: SUID=M; MUID=38898D79DD7D66B525729F05DCA46708; _EDGE_S=F=1&SID=2826103D7320635219E
+Action.c(52):     3024172F96210; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID=V=2&GUID=38E845E504F24B66A654B47885D9CD
+Action.c(52):     73&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCHLANG=vi; _SS=SID=2826103D7320635219E3024
+Action.c(52):     172F96210\r\n
+Action.c(52):     \r\n
+Action.c(52): t=260464ms: 224-byte response headers for "http://bing.com" (RelFrameId=1, Internal ID=3549)
+Action.c(52):     HTTP/1.1 301 Moved Permanently\r\n
+Action.c(52):     Location: http://www.bing.com/\r\n
+Action.c(52):     X-MSEdge-Ref: Ref A: 5AD0BD08A9764006B4882769C8DC524C Ref B: HKBEDGE0511 Ref C: 2022-12-16
+Action.c(52):     T03:47:31Z\r\n
+Action.c(52):     Date: Fri, 16 Dec 2022 03:47:30 GMT\r\n
+Action.c(52):     Content-Length: 0\r\n
+Action.c(52):     \r\n
+Action.c(52): Redirecting "http://bing.com" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(52): To location "http://www.bing.com/"  	[MsgId: MMSG-26693]
+Action.c(52): t=260465ms: Request done "http://bing.com"  	[MsgId: MMSG-26000]
+Action.c(52): t=260465ms: Already connected [1] to www.bing.com:80  	[MsgId: MMSG-26000]
+Action.c(52): t=260465ms: 506-byte request headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3550)
+Action.c(52):     GET / HTTP/1.1\r\n
+Action.c(52):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(52):     Accept-Encoding: gzip, deflate\r\n
+Action.c(52):     Accept: */*\r\n
+Action.c(52):     Connection: Keep-Alive\r\n
+Action.c(52):     Host: www.bing.com\r\n
+Action.c(52):     Cookie: SUID=M; MUID=38898D79DD7D66B525729F05DCA46708; MUIDB=38898D79DD7D66B525729F05DCA46
+Action.c(52):     708; _EDGE_S=F=1&SID=2826103D7320635219E3024172F96210; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID
+Action.c(52):     =V=2&GUID=38E845E504F24B66A654B47885D9CD73&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCH
+Action.c(52):     LANG=vi; _SS=SID=2826103D7320635219E3024172F96210\r\n
+Action.c(52):     \r\n
+Action.c(52): t=260563ms: 526-byte response headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3550)
+Action.c(52):     HTTP/1.1 200 OK\r\n
+Action.c(52):     Cache-Control: private, max-age=0\r\n
+Action.c(52):     Content-Length: 40470\r\n
+Action.c(52):     Content-Type: text/html; charset=utf-8\r\n
+Action.c(52):     Content-Encoding: gzip\r\n
+Action.c(52):     Vary: Accept-Encoding\r\n
+Action.c(52):     P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"\r\n
+Action.c(52):     Set-Cookie: MUIDB=38898D79DD7D66B525729F05DCA46708; expires=Wed, 10-Jan-2024 03:47:31 GMT;
+Action.c(52):      path=/; HttpOnly\r\n
+Action.c(52):     X-UA-Compatible: IE=edge\r\n
+Action.c(52):     X-Cache: CONFIG_NOCACHE\r\n
+Action.c(52):     X-MSEdge-Ref: Ref A: 18EF95EF11714ABAA27C3D9D1D39CE7F Ref B: HKBEDGE0613 Ref C: 2022-12-16
+Action.c(52):     T03:47:31Z\r\n
+Action.c(52):     Date: Fri, 16 Dec 2022 03:47:31 GMT\r\n
+Action.c(52):     \r\n
+Action.c(52): Resource "http://www.bing.com/rp/MDr1f9aJs4rBVf1F5DAtlALvweY.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(52): Resource "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(52): Resource "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(52): Resource "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(52): t=260566ms: Request done "http://www.bing.com/"  	[MsgId: MMSG-26000]
+Action.c(52): web_url("web_url") was successful, 40470 body bytes, 750 header bytes  	[MsgId: MMSG-26386]
+Action.c(59): Notify: Transaction "Test5" ended with a "Pass" status (Duration: 0.1444).	[MsgId: MMSG-16873]
+Action.c(62): Notify: Transaction "Test6" started.	[MsgId: MMSG-16999]
+Action.c(64): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(64): t=260567ms: Already connected [0] to bing.com:80  	[MsgId: MMSG-26000]
+Action.c(64): t=260567ms: 462-byte request headers for "http://bing.com" (RelFrameId=1, Internal ID=3551)
+Action.c(64):     GET / HTTP/1.1\r\n
+Action.c(64):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(64):     Accept-Encoding: gzip, deflate\r\n
+Action.c(64):     Accept: */*\r\n
+Action.c(64):     Connection: Keep-Alive\r\n
+Action.c(64):     Host: bing.com\r\n
+Action.c(64):     Cookie: SUID=M; MUID=38898D79DD7D66B525729F05DCA46708; _EDGE_S=F=1&SID=2826103D7320635219E
+Action.c(64):     3024172F96210; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID=V=2&GUID=38E845E504F24B66A654B47885D9CD
+Action.c(64):     73&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCHLANG=vi; _SS=SID=2826103D7320635219E3024
+Action.c(64):     172F96210\r\n
+Action.c(64):     \r\n
+Action.c(64): t=260609ms: 224-byte response headers for "http://bing.com" (RelFrameId=1, Internal ID=3551)
+Action.c(64):     HTTP/1.1 301 Moved Permanently\r\n
+Action.c(64):     Location: http://www.bing.com/\r\n
+Action.c(64):     X-MSEdge-Ref: Ref A: 013537F7AC504322805ABF40AE9C6EC6 Ref B: HKBEDGE0511 Ref C: 2022-12-16
+Action.c(64):     T03:47:31Z\r\n
+Action.c(64):     Date: Fri, 16 Dec 2022 03:47:30 GMT\r\n
+Action.c(64):     Content-Length: 0\r\n
+Action.c(64):     \r\n
+Action.c(64): Redirecting "http://bing.com" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(64): To location "http://www.bing.com/"  	[MsgId: MMSG-26693]
+Action.c(64): t=260609ms: Request done "http://bing.com"  	[MsgId: MMSG-26000]
+Action.c(64): t=260610ms: Already connected [1] to www.bing.com:80  	[MsgId: MMSG-26000]
+Action.c(64): t=260610ms: 506-byte request headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3552)
+Action.c(64):     GET / HTTP/1.1\r\n
+Action.c(64):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(64):     Accept-Encoding: gzip, deflate\r\n
+Action.c(64):     Accept: */*\r\n
+Action.c(64):     Connection: Keep-Alive\r\n
+Action.c(64):     Host: www.bing.com\r\n
+Action.c(64):     Cookie: SUID=M; MUID=38898D79DD7D66B525729F05DCA46708; MUIDB=38898D79DD7D66B525729F05DCA46
+Action.c(64):     708; _EDGE_S=F=1&SID=2826103D7320635219E3024172F96210; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID
+Action.c(64):     =V=2&GUID=38E845E504F24B66A654B47885D9CD73&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCH
+Action.c(64):     LANG=vi; _SS=SID=2826103D7320635219E3024172F96210\r\n
+Action.c(64):     \r\n
+Action.c(64): t=260740ms: 526-byte response headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3552)
+Action.c(64):     HTTP/1.1 200 OK\r\n
+Action.c(64):     Cache-Control: private, max-age=0\r\n
+Action.c(64):     Content-Length: 40475\r\n
+Action.c(64):     Content-Type: text/html; charset=utf-8\r\n
+Action.c(64):     Content-Encoding: gzip\r\n
+Action.c(64):     Vary: Accept-Encoding\r\n
+Action.c(64):     P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"\r\n
+Action.c(64):     Set-Cookie: MUIDB=38898D79DD7D66B525729F05DCA46708; expires=Wed, 10-Jan-2024 03:47:31 GMT;
+Action.c(64):      path=/; HttpOnly\r\n
+Action.c(64):     X-UA-Compatible: IE=edge\r\n
+Action.c(64):     X-Cache: CONFIG_NOCACHE\r\n
+Action.c(64):     X-MSEdge-Ref: Ref A: 91A350C2023C4CC4883CC93B3A973051 Ref B: HKBEDGE0613 Ref C: 2022-12-16
+Action.c(64):     T03:47:31Z\r\n
+Action.c(64):     Date: Fri, 16 Dec 2022 03:47:31 GMT\r\n
+Action.c(64):     \r\n
+Action.c(64): Resource "http://www.bing.com/rp/MDr1f9aJs4rBVf1F5DAtlALvweY.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(64): Resource "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(64): Resource "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(64): Resource "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(64): t=260743ms: Request done "http://www.bing.com/"  	[MsgId: MMSG-26000]
+Action.c(64): web_url("web_url") was successful, 40475 body bytes, 750 header bytes  	[MsgId: MMSG-26386]
+Action.c(71): Notify: Transaction "Test6" ended with a "Pass" status (Duration: 0.1767).	[MsgId: MMSG-16873]
+Ending action Action.	[MsgId: MMSG-15918]
+Ending iteration 222.	[MsgId: MMSG-15965]
+Starting iteration 223.	[MsgId: MMSG-15968]
+t=260744ms: Closed connection [0] to bing.com:80 after completing 5 request(s)  	[MsgId: MMSG-26000]
+t=260744ms: Closed connection [1] to www.bing.com:80 after completing 6 request(s)  	[MsgId: MMSG-26000]
+t=260744ms: Closed connection [2] to www.bing.com:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+t=260744ms: Closed connection [3] to www.bing.com:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+t=260744ms: Closed connection [4] to www.bing.com:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Resetting all proxy auto-configuration information  	[MsgId: MMSG-26000]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): Notify: Transaction "Test1" started.	[MsgId: MMSG-16999]
+Action.c(6): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(6): t=260745ms: Connecting [0] to host 13.107.21.200:80  	[MsgId: MMSG-26000]
+Action.c(6): t=260787ms: Connected socket [0] from 192.168.100.5:2787 to 13.107.21.200:80 in 42 ms  	[MsgId: MMSG-26000]
+Action.c(6): t=260787ms: 181-byte request headers for "http://bing.com" (RelFrameId=1, Internal ID=3553)
+Action.c(6):     GET / HTTP/1.1\r\n
+Action.c(6):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(6):     Accept-Encoding: gzip, deflate\r\n
+Action.c(6):     Accept: */*\r\n
+Action.c(6):     Connection: Keep-Alive\r\n
+Action.c(6):     Host: bing.com\r\n
+Action.c(6):     \r\n
+Action.c(6): t=260834ms: 224-byte response headers for "http://bing.com" (RelFrameId=1, Internal ID=3553)
+Action.c(6):     HTTP/1.1 301 Moved Permanently\r\n
+Action.c(6):     Location: http://www.bing.com/\r\n
+Action.c(6):     X-MSEdge-Ref: Ref A: 43525367BA0F49F6AF88D40D5B921782 Ref B: HKBEDGE0509 Ref C: 2022-12-16
+Action.c(6):     T03:47:31Z\r\n
+Action.c(6):     Date: Fri, 16 Dec 2022 03:47:31 GMT\r\n
+Action.c(6):     Content-Length: 0\r\n
+Action.c(6):     \r\n
+Action.c(6): Redirecting "http://bing.com" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(6): To location "http://www.bing.com/"  	[MsgId: MMSG-26693]
+Action.c(6): t=260835ms: Request done "http://bing.com"  	[MsgId: MMSG-26000]
+Action.c(6): t=260835ms: Connecting [1] to host 204.79.197.200:80  	[MsgId: MMSG-26000]
+Action.c(6): t=260873ms: Connected socket [1] from 192.168.100.5:2788 to 204.79.197.200:80 in 38 ms  	[MsgId: MMSG-26000]
+Action.c(6): t=260873ms: 185-byte request headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3554)
+Action.c(6):     GET / HTTP/1.1\r\n
+Action.c(6):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(6):     Accept-Encoding: gzip, deflate\r\n
+Action.c(6):     Accept: */*\r\n
+Action.c(6):     Connection: Keep-Alive\r\n
+Action.c(6):     Host: www.bing.com\r\n
+Action.c(6):     \r\n
+Action.c(6): t=260972ms: 1444-byte response headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3554)
+Action.c(6):     HTTP/1.1 200 OK\r\n
+Action.c(6):     Cache-Control: private, max-age=0\r\n
+Action.c(6):     Content-Length: 40531\r\n
+Action.c(6):     Content-Type: text/html; charset=utf-8\r\n
+Action.c(6):     Content-Encoding: gzip\r\n
+Action.c(6):     Vary: Accept-Encoding\r\n
+Action.c(6):     P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"\r\n
+Action.c(6):     Set-Cookie: SUID=M; domain=.bing.com; expires=Fri, 16-Dec-2022 15:47:31 GMT; path=/; HttpO
+Action.c(6):     nly\r\n
+Action.c(6):     Set-Cookie: MUID=0F7E176E748B60A828E90512758361C7; domain=.bing.com; expires=Wed, 10-Jan-2
+Action.c(6):     024 03:47:31 GMT; path=/\r\n
+Action.c(6):     Set-Cookie: MUIDB=0F7E176E748B60A828E90512758361C7; expires=Wed, 10-Jan-2024 03:47:31 GMT;
+Action.c(6):      path=/; HttpOnly\r\n
+Action.c(6):     Set-Cookie: _EDGE_S=F=1&SID=2897A77AD3096DCA26BBB506D2016C0F; domain=.bing.com; path=/; Ht
+Action.c(6):     tpOnly\r\n
+Action.c(6):     Set-Cookie: _EDGE_V=1; domain=.bing.com; expires=Wed, 10-Jan-2024 03:47:31 GMT; path=/; Ht
+Action.c(6):     tpOnly\r\n
+Action.c(6):     Set-Cookie: SRCHD=AF=NOFORM; domain=.bing.com; expires=Mon, 16-Dec-2024 03:47:31 GMT; path
+Action.c(6):     =/\r\n
+Action.c(6):     Set-Cookie: SRCHUID=V=2&GUID=2D891055E388427EBDCBDA439ADDE59B&dmnchg=1; domain=.bing.com; 
+Action.c(6):     expires=Mon, 16-Dec-2024 03:47:31 GMT; path=/\r\n
+Action.c(6):     Set-Cookie: SRCHUSR=DOB=20221216; domain=.bing.com; expires=Mon, 16-Dec-2024 03:47:31 GMT;
+Action.c(6):      path=/\r\n
+Action.c(6):     Set-Cookie: SRCHHPGUSR=SRCHLANG=vi; domain=.bing.com; expires=Mon, 16-Dec-2024 03:47:31 GM
+Action.c(6):     T; path=/\r\n
+Action.c(6):     Set-Cookie: _SS=SID=2897A77AD3096DCA26BBB506D2016C0F; domain=.bing.com; path=/\r\n
+Action.c(6):     X-UA-Compatible: IE=edge\r\n
+Action.c(6):     X-Cache: CONFIG_NOCACHE\r\n
+Action.c(6):     X-MSEdge-Ref: Ref A: F5765E98CC704E88A36584E131563066 Ref B: HKBEDGE0517 Ref C: 2022-12-16
+Action.c(6):     T03:47:31Z\r\n
+Action.c(6):     Date: Fri, 16 Dec 2022 03:47:30 GMT\r\n
+Action.c(6):     \r\n
+Action.c(6): Found resource "http://www.bing.com/rp/MDr1f9aJs4rBVf1F5DAtlALvweY.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js" in HTML "http://www.bing.com/"  	[MsgId: MMSG-26659]
+Action.c(6): t=260976ms: Connecting [2] to host 204.79.197.200:80  	[MsgId: MMSG-26000]
+Action.c(6): t=260977ms: Connecting [3] to host 204.79.197.200:80  	[MsgId: MMSG-26000]
+Action.c(6): t=260977ms: Connecting [4] to host 204.79.197.200:80  	[MsgId: MMSG-26000]
+Action.c(6): t=260977ms: Closed connection [0] to bing.com:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(6): t=260977ms: Connecting [0] to host 204.79.197.200:80  	[MsgId: MMSG-26000]
+Action.c(6): t=261011ms: Request done "http://www.bing.com/"  	[MsgId: MMSG-26000]
+Action.c(6): t=261016ms: Connected socket [2] from 192.168.100.5:2789 to 204.79.197.200:80 in 40 ms  	[MsgId: MMSG-26000]
+Action.c(6): t=261016ms: 573-byte request headers for "http://www.bing.com/rp/MDr1f9aJs4rBVf1F5DAtlALvweY.gz.js" (RelFrameId=, Internal ID=3555)
+Action.c(6):     GET /rp/MDr1f9aJs4rBVf1F5DAtlALvweY.gz.js HTTP/1.1\r\n
+Action.c(6):     Referer: http://www.bing.com/\r\n
+Action.c(6):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(6):     Accept-Encoding: gzip, deflate\r\n
+Action.c(6):     Accept: */*\r\n
+Action.c(6):     Connection: Keep-Alive\r\n
+Action.c(6):     Host: www.bing.com\r\n
+Action.c(6):     Cookie: SUID=M; MUID=0F7E176E748B60A828E90512758361C7; MUIDB=0F7E176E748B60A828E9051275836
+Action.c(6):     1C7; _EDGE_S=F=1&SID=2897A77AD3096DCA26BBB506D2016C0F; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID
+Action.c(6):     =V=2&GUID=2D891055E388427EBDCBDA439ADDE59B&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCH
+Action.c(6):     LANG=vi; _SS=SID=2897A77AD3096DCA26BBB506D2016C0F\r\n
+Action.c(6):     \r\n
+Action.c(6): t=261017ms: Connected socket [4] from 192.168.100.5:2791 to 204.79.197.200:80 in 40 ms  	[MsgId: MMSG-26000]
+Action.c(6): t=261017ms: 573-byte request headers for "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js" (RelFrameId=, Internal ID=3557)
+Action.c(6):     GET /rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js HTTP/1.1\r\n
+Action.c(6):     Referer: http://www.bing.com/\r\n
+Action.c(6):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(6):     Accept-Encoding: gzip, deflate\r\n
+Action.c(6):     Accept: */*\r\n
+Action.c(6):     Connection: Keep-Alive\r\n
+Action.c(6):     Host: www.bing.com\r\n
+Action.c(6):     Cookie: SUID=M; MUID=0F7E176E748B60A828E90512758361C7; MUIDB=0F7E176E748B60A828E9051275836
+Action.c(6):     1C7; _EDGE_S=F=1&SID=2897A77AD3096DCA26BBB506D2016C0F; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID
+Action.c(6):     =V=2&GUID=2D891055E388427EBDCBDA439ADDE59B&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCH
+Action.c(6):     LANG=vi; _SS=SID=2897A77AD3096DCA26BBB506D2016C0F\r\n
+Action.c(6):     \r\n
+Action.c(6): t=261020ms: Connected socket [0] from 192.168.100.5:2792 to 204.79.197.200:80 in 43 ms  	[MsgId: MMSG-26000]
+Action.c(6): t=261020ms: 573-byte request headers for "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js" (RelFrameId=, Internal ID=3558)
+Action.c(6):     GET /rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js HTTP/1.1\r\n
+Action.c(6):     Referer: http://www.bing.com/\r\n
+Action.c(6):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(6):     Accept-Encoding: gzip, deflate\r\n
+Action.c(6):     Accept: */*\r\n
+Action.c(6):     Connection: Keep-Alive\r\n
+Action.c(6):     Host: www.bing.com\r\n
+Action.c(6):     Cookie: SUID=M; MUID=0F7E176E748B60A828E90512758361C7; MUIDB=0F7E176E748B60A828E9051275836
+Action.c(6):     1C7; _EDGE_S=F=1&SID=2897A77AD3096DCA26BBB506D2016C0F; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID
+Action.c(6):     =V=2&GUID=2D891055E388427EBDCBDA439ADDE59B&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCH
+Action.c(6):     LANG=vi; _SS=SID=2897A77AD3096DCA26BBB506D2016C0F\r\n
+Action.c(6):     \r\n
+Action.c(6): t=261058ms: 1063-byte response headers for "http://www.bing.com/rp/MDr1f9aJs4rBVf1F5DAtlALvweY.gz.js" (RelFrameId=, Internal ID=3555)
+Action.c(6):     HTTP/1.1 200 OK\r\n
+Action.c(6):     Cache-Control: public, max-age=432000\r\n
+Action.c(6):     Content-Length: 162\r\n
+Action.c(6):     Content-Type: application/x-javascript; charset=utf-8\r\n
+Action.c(6):     Content-Encoding: gzip\r\n
+Action.c(6):     Content-MD5: IHjOpTMXJrZ3Ud4HhBL6IQ==\r\n
+Action.c(6):     Last-Modified: Wed, 24 Jun 2020 04:38:24 GMT\r\n
+Action.c(6):     ETag: 0x8D817F86E683853\r\n
+Action.c(6):     Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0\r\n
+Action.c(6):     X-Cache: TCP_HIT\r\n
+Action.c(6):     x-ms-request-id: 3a45c729-701e-0017-230e-0f3bf1000000\r\n
+Action.c(6):     x-ms-version: 2009-09-19\r\n
+Action.c(6):     x-ms-lease-status: unlocked\r\n
+Action.c(6):     x-ms-blob-type: BlockBlob\r\n
+Action.c(6):     Access-Control-Allow-Origin: *\r\n
+Action.c(6):     X-Azure-Ref-OriginShield: Ref A: DE5A47DF16F94A808B30EC0DDB96E1CE Ref B: SG2EDGE2409 Ref C
+Action.c(6):     : 2022-12-15T11:33:40Z\r\n
+Action.c(6):     timing-allow-origin: *\r\n
+Action.c(6):     cross-origin-resource-policy: cross-origin\r\n
+Action.c(6):     nel: {"report_to":"network-errors","max_age":604800,"success_fraction":0.001,"failure_frac
+Action.c(6):     tion":1.0}\r\n
+Action.c(6):     report-to: {"group":"network-errors","max_age":604800,"endpoints":[{"url":"https://aefd.ne
+Action.c(6):     lreports.net/api/report?cat=bingaot"}]}\r\n
+Action.c(6):     X-MSEdge-Ref: Ref A: 124B25F9E4374299A9175E0E486D83A4 Ref B: HKBEDGE0509 Ref C: 2022-12-16
+Action.c(6):     T03:47:31Z\r\n
+Action.c(6):     Date: Fri, 16 Dec 2022 03:47:31 GMT\r\n
+Action.c(6):     \r\n
+Action.c(6): t=261060ms: Request done "http://www.bing.com/rp/MDr1f9aJs4rBVf1F5DAtlALvweY.gz.js"  	[MsgId: MMSG-26000]
+Action.c(6): t=261060ms: 1063-byte response headers for "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js" (RelFrameId=, Internal ID=3557)
+Action.c(6):     HTTP/1.1 200 OK\r\n
+Action.c(6):     Cache-Control: public, max-age=432000\r\n
+Action.c(6):     Content-Length: 293\r\n
+Action.c(6):     Content-Type: application/x-javascript; charset=utf-8\r\n
+Action.c(6):     Content-Encoding: gzip\r\n
+Action.c(6):     Content-MD5: tJ3atKMUU9A6FxXCYWJhEw==\r\n
+Action.c(6):     Last-Modified: Wed, 24 Jun 2020 04:40:23 GMT\r\n
+Action.c(6):     ETag: 0x8D817F8B55178B4\r\n
+Action.c(6):     Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0\r\n
+Action.c(6):     X-Cache: TCP_HIT\r\n
+Action.c(6):     x-ms-request-id: 85d796df-e01e-0077-4e18-0e476e000000\r\n
+Action.c(6):     x-ms-version: 2009-09-19\r\n
+Action.c(6):     x-ms-lease-status: unlocked\r\n
+Action.c(6):     x-ms-blob-type: BlockBlob\r\n
+Action.c(6):     Access-Control-Allow-Origin: *\r\n
+Action.c(6):     X-Azure-Ref-OriginShield: Ref A: AEA971D4E83C4467A6A6D15D783DFD07 Ref B: SG2EDGE2417 Ref C
+Action.c(6):     : 2022-12-15T11:27:00Z\r\n
+Action.c(6):     timing-allow-origin: *\r\n
+Action.c(6):     cross-origin-resource-policy: cross-origin\r\n
+Action.c(6):     nel: {"report_to":"network-errors","max_age":604800,"success_fraction":0.001,"failure_frac
+Action.c(6):     tion":1.0}\r\n
+Action.c(6):     report-to: {"group":"network-errors","max_age":604800,"endpoints":[{"url":"https://aefd.ne
+Action.c(6):     lreports.net/api/report?cat=bingaot"}]}\r\n
+Action.c(6):     X-MSEdge-Ref: Ref A: 998C89F04E004F9FA9707691EDB1DF11 Ref B: HKBEDGE0516 Ref C: 2022-12-16
+Action.c(6):     T03:47:31Z\r\n
+Action.c(6):     Date: Fri, 16 Dec 2022 03:47:31 GMT\r\n
+Action.c(6):     \r\n
+Action.c(6): t=261061ms: Request done "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js"  	[MsgId: MMSG-26000]
+Action.c(6): t=261063ms: 1063-byte response headers for "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js" (RelFrameId=, Internal ID=3558)
+Action.c(6):     HTTP/1.1 200 OK\r\n
+Action.c(6):     Cache-Control: public, max-age=432000\r\n
+Action.c(6):     Content-Length: 290\r\n
+Action.c(6):     Content-Type: application/x-javascript; charset=utf-8\r\n
+Action.c(6):     Content-Encoding: gzip\r\n
+Action.c(6):     Content-MD5: /6QX0ap488BYFDOjAoirJA==\r\n
+Action.c(6):     Last-Modified: Wed, 24 Jun 2020 04:46:57 GMT\r\n
+Action.c(6):     ETag: 0x8D817F99FEB2345\r\n
+Action.c(6):     Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0\r\n
+Action.c(6):     X-Cache: TCP_HIT\r\n
+Action.c(6):     x-ms-request-id: 48629e6f-401e-0033-310d-0ecd51000000\r\n
+Action.c(6):     x-ms-version: 2009-09-19\r\n
+Action.c(6):     x-ms-lease-status: unlocked\r\n
+Action.c(6):     x-ms-blob-type: BlockBlob\r\n
+Action.c(6):     Access-Control-Allow-Origin: *\r\n
+Action.c(6):     X-Azure-Ref-OriginShield: Ref A: E04BE0BACA3A4FC29B2C4452B92BAA48 Ref B: SG2EDGE2510 Ref C
+Action.c(6):     : 2022-12-15T11:53:00Z\r\n
+Action.c(6):     timing-allow-origin: *\r\n
+Action.c(6):     cross-origin-resource-policy: cross-origin\r\n
+Action.c(6):     nel: {"report_to":"network-errors","max_age":604800,"success_fraction":0.001,"failure_frac
+Action.c(6):     tion":1.0}\r\n
+Action.c(6):     report-to: {"group":"network-errors","max_age":604800,"endpoints":[{"url":"https://aefd.ne
+Action.c(6):     lreports.net/api/report?cat=bingaot"}]}\r\n
+Action.c(6):     X-MSEdge-Ref: Ref A: C27E8133F59947F3A905ED54D7B5CB6C Ref B: HKBEDGE0511 Ref C: 2022-12-16
+Action.c(6):     T03:47:31Z\r\n
+Action.c(6):     Date: Fri, 16 Dec 2022 03:47:30 GMT\r\n
+Action.c(6):     \r\n
+Action.c(6): t=261064ms: Request done "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js"  	[MsgId: MMSG-26000]
+Action.c(6): t=261064ms: Connected socket [3] from 192.168.100.5:2790 to 204.79.197.200:80 in 87 ms  	[MsgId: MMSG-26000]
+Action.c(6): t=261064ms: 573-byte request headers for "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js" (RelFrameId=, Internal ID=3556)
+Action.c(6):     GET /rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js HTTP/1.1\r\n
+Action.c(6):     Referer: http://www.bing.com/\r\n
+Action.c(6):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(6):     Accept-Encoding: gzip, deflate\r\n
+Action.c(6):     Accept: */*\r\n
+Action.c(6):     Connection: Keep-Alive\r\n
+Action.c(6):     Host: www.bing.com\r\n
+Action.c(6):     Cookie: SUID=M; MUID=0F7E176E748B60A828E90512758361C7; MUIDB=0F7E176E748B60A828E9051275836
+Action.c(6):     1C7; _EDGE_S=F=1&SID=2897A77AD3096DCA26BBB506D2016C0F; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID
+Action.c(6):     =V=2&GUID=2D891055E388427EBDCBDA439ADDE59B&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCH
+Action.c(6):     LANG=vi; _SS=SID=2897A77AD3096DCA26BBB506D2016C0F\r\n
+Action.c(6):     \r\n
+Action.c(6): t=261105ms: 1063-byte response headers for "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js" (RelFrameId=, Internal ID=3556)
+Action.c(6):     HTTP/1.1 200 OK\r\n
+Action.c(6):     Cache-Control: public, max-age=432000\r\n
+Action.c(6):     Content-Length: 261\r\n
+Action.c(6):     Content-Type: application/x-javascript; charset=utf-8\r\n
+Action.c(6):     Content-Encoding: gzip\r\n
+Action.c(6):     Content-MD5: g2OBYaLoMQ/7pG1XxIWwmA==\r\n
+Action.c(6):     Last-Modified: Wed, 24 Jun 2020 04:45:15 GMT\r\n
+Action.c(6):     ETag: 0x8D817F963A5AFA9\r\n
+Action.c(6):     Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0\r\n
+Action.c(6):     X-Cache: TCP_HIT\r\n
+Action.c(6):     x-ms-request-id: 6490fc60-101e-0073-4f16-0eca69000000\r\n
+Action.c(6):     x-ms-version: 2009-09-19\r\n
+Action.c(6):     x-ms-lease-status: unlocked\r\n
+Action.c(6):     x-ms-blob-type: BlockBlob\r\n
+Action.c(6):     Access-Control-Allow-Origin: *\r\n
+Action.c(6):     X-Azure-Ref-OriginShield: Ref A: 3920781EA55F4DFF837A34ECDBBA6BEB Ref B: SG2EDGE2609 Ref C
+Action.c(6):     : 2022-12-15T14:31:17Z\r\n
+Action.c(6):     timing-allow-origin: *\r\n
+Action.c(6):     cross-origin-resource-policy: cross-origin\r\n
+Action.c(6):     nel: {"report_to":"network-errors","max_age":604800,"success_fraction":0.001,"failure_frac
+Action.c(6):     tion":1.0}\r\n
+Action.c(6):     report-to: {"group":"network-errors","max_age":604800,"endpoints":[{"url":"https://aefd.ne
+Action.c(6):     lreports.net/api/report?cat=bingaot"}]}\r\n
+Action.c(6):     X-MSEdge-Ref: Ref A: CD7510C4ADD943839CC4EC43BE3174DB Ref B: HKBEDGE0519 Ref C: 2022-12-16
+Action.c(6):     T03:47:31Z\r\n
+Action.c(6):     Date: Fri, 16 Dec 2022 03:47:31 GMT\r\n
+Action.c(6):     \r\n
+Action.c(6): t=261106ms: Request done "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js"  	[MsgId: MMSG-26000]
+Action.c(6): web_url("web_url") was successful, 41537 body bytes, 5920 header bytes  	[MsgId: MMSG-26386]
+Action.c(13): Notify: Transaction "Test1" ended with a "Pass" status (Duration: 0.3619).	[MsgId: MMSG-16873]
+Action.c(15): Notify: Transaction "Test2" started.	[MsgId: MMSG-16999]
+Action.c(17): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(17): t=261107ms: Closed connection [0] to www.bing.com:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Action.c(17): t=261107ms: Connecting [0] to host 13.107.21.200:80  	[MsgId: MMSG-26000]
+Action.c(17): t=261145ms: Connected socket [0] from 192.168.100.5:2793 to 13.107.21.200:80 in 38 ms  	[MsgId: MMSG-26000]
+Action.c(17): t=261145ms: 462-byte request headers for "http://bing.com" (RelFrameId=1, Internal ID=3559)
+Action.c(17):     GET / HTTP/1.1\r\n
+Action.c(17):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(17):     Accept-Encoding: gzip, deflate\r\n
+Action.c(17):     Accept: */*\r\n
+Action.c(17):     Connection: Keep-Alive\r\n
+Action.c(17):     Host: bing.com\r\n
+Action.c(17):     Cookie: SUID=M; MUID=0F7E176E748B60A828E90512758361C7; _EDGE_S=F=1&SID=2897A77AD3096DCA26B
+Action.c(17):     BB506D2016C0F; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID=V=2&GUID=2D891055E388427EBDCBDA439ADDE5
+Action.c(17):     9B&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCHLANG=vi; _SS=SID=2897A77AD3096DCA26BBB50
+Action.c(17):     6D2016C0F\r\n
+Action.c(17):     \r\n
+Action.c(17): t=261187ms: 224-byte response headers for "http://bing.com" (RelFrameId=1, Internal ID=3559)
+Action.c(17):     HTTP/1.1 301 Moved Permanently\r\n
+Action.c(17):     Location: http://www.bing.com/\r\n
+Action.c(17):     X-MSEdge-Ref: Ref A: 4A5567AA92DD49A38CFD7D55D94E921F Ref B: HKBEDGE0508 Ref C: 2022-12-16
+Action.c(17):     T03:47:31Z\r\n
+Action.c(17):     Date: Fri, 16 Dec 2022 03:47:31 GMT\r\n
+Action.c(17):     Content-Length: 0\r\n
+Action.c(17):     \r\n
+Action.c(17): Redirecting "http://bing.com" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(17): To location "http://www.bing.com/"  	[MsgId: MMSG-26693]
+Action.c(17): t=261187ms: Request done "http://bing.com"  	[MsgId: MMSG-26000]
+Action.c(17): t=261187ms: Already connected [1] to www.bing.com:80  	[MsgId: MMSG-26000]
+Action.c(17): t=261187ms: 506-byte request headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3560)
+Action.c(17):     GET / HTTP/1.1\r\n
+Action.c(17):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(17):     Accept-Encoding: gzip, deflate\r\n
+Action.c(17):     Accept: */*\r\n
+Action.c(17):     Connection: Keep-Alive\r\n
+Action.c(17):     Host: www.bing.com\r\n
+Action.c(17):     Cookie: SUID=M; MUID=0F7E176E748B60A828E90512758361C7; MUIDB=0F7E176E748B60A828E9051275836
+Action.c(17):     1C7; _EDGE_S=F=1&SID=2897A77AD3096DCA26BBB506D2016C0F; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID
+Action.c(17):     =V=2&GUID=2D891055E388427EBDCBDA439ADDE59B&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCH
+Action.c(17):     LANG=vi; _SS=SID=2897A77AD3096DCA26BBB506D2016C0F\r\n
+Action.c(17):     \r\n
+Action.c(17): t=261284ms: 526-byte response headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3560)
+Action.c(17):     HTTP/1.1 200 OK\r\n
+Action.c(17):     Cache-Control: private, max-age=0\r\n
+Action.c(17):     Content-Length: 40472\r\n
+Action.c(17):     Content-Type: text/html; charset=utf-8\r\n
+Action.c(17):     Content-Encoding: gzip\r\n
+Action.c(17):     Vary: Accept-Encoding\r\n
+Action.c(17):     P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"\r\n
+Action.c(17):     Set-Cookie: MUIDB=0F7E176E748B60A828E90512758361C7; expires=Wed, 10-Jan-2024 03:47:32 GMT;
+Action.c(17):      path=/; HttpOnly\r\n
+Action.c(17):     X-UA-Compatible: IE=edge\r\n
+Action.c(17):     X-Cache: CONFIG_NOCACHE\r\n
+Action.c(17):     X-MSEdge-Ref: Ref A: 57FA851B7B58466F81A8B145DEAB0058 Ref B: HKBEDGE0517 Ref C: 2022-12-16
+Action.c(17):     T03:47:32Z\r\n
+Action.c(17):     Date: Fri, 16 Dec 2022 03:47:31 GMT\r\n
+Action.c(17):     \r\n
+Action.c(17): Resource "http://www.bing.com/rp/MDr1f9aJs4rBVf1F5DAtlALvweY.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): Resource "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): Resource "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): Resource "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): t=261287ms: Request done "http://www.bing.com/"  	[MsgId: MMSG-26000]
+Action.c(17): web_url("web_url") was successful, 40472 body bytes, 750 header bytes  	[MsgId: MMSG-26386]
+Action.c(24): Notify: Transaction "Test2" ended with a "Pass" status (Duration: 0.1809).	[MsgId: MMSG-16873]
+Action.c(26): Notify: Transaction "Test3" started.	[MsgId: MMSG-16999]
+Action.c(28): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(28): t=261288ms: Already connected [0] to bing.com:80  	[MsgId: MMSG-26000]
+Action.c(28): t=261288ms: 462-byte request headers for "http://bing.com" (RelFrameId=1, Internal ID=3561)
+Action.c(28):     GET / HTTP/1.1\r\n
+Action.c(28):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(28):     Accept-Encoding: gzip, deflate\r\n
+Action.c(28):     Accept: */*\r\n
+Action.c(28):     Connection: Keep-Alive\r\n
+Action.c(28):     Host: bing.com\r\n
+Action.c(28):     Cookie: SUID=M; MUID=0F7E176E748B60A828E90512758361C7; _EDGE_S=F=1&SID=2897A77AD3096DCA26B
+Action.c(28):     BB506D2016C0F; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID=V=2&GUID=2D891055E388427EBDCBDA439ADDE5
+Action.c(28):     9B&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCHLANG=vi; _SS=SID=2897A77AD3096DCA26BBB50
+Action.c(28):     6D2016C0F\r\n
+Action.c(28):     \r\n
+Action.c(28): t=261328ms: 224-byte response headers for "http://bing.com" (RelFrameId=1, Internal ID=3561)
+Action.c(28):     HTTP/1.1 301 Moved Permanently\r\n
+Action.c(28):     Location: http://www.bing.com/\r\n
+Action.c(28):     X-MSEdge-Ref: Ref A: A82CE38FA17046E69DAEB3DD396D987D Ref B: HKBEDGE0508 Ref C: 2022-12-16
+Action.c(28):     T03:47:32Z\r\n
+Action.c(28):     Date: Fri, 16 Dec 2022 03:47:31 GMT\r\n
+Action.c(28):     Content-Length: 0\r\n
+Action.c(28):     \r\n
+Action.c(28): Redirecting "http://bing.com" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(28): To location "http://www.bing.com/"  	[MsgId: MMSG-26693]
+Action.c(28): t=261329ms: Request done "http://bing.com"  	[MsgId: MMSG-26000]
+Action.c(28): t=261329ms: Already connected [1] to www.bing.com:80  	[MsgId: MMSG-26000]
+Action.c(28): t=261329ms: 506-byte request headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3562)
+Action.c(28):     GET / HTTP/1.1\r\n
+Action.c(28):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(28):     Accept-Encoding: gzip, deflate\r\n
+Action.c(28):     Accept: */*\r\n
+Action.c(28):     Connection: Keep-Alive\r\n
+Action.c(28):     Host: www.bing.com\r\n
+Action.c(28):     Cookie: SUID=M; MUID=0F7E176E748B60A828E90512758361C7; MUIDB=0F7E176E748B60A828E9051275836
+Action.c(28):     1C7; _EDGE_S=F=1&SID=2897A77AD3096DCA26BBB506D2016C0F; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID
+Action.c(28):     =V=2&GUID=2D891055E388427EBDCBDA439ADDE59B&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCH
+Action.c(28):     LANG=vi; _SS=SID=2897A77AD3096DCA26BBB506D2016C0F\r\n
+Action.c(28):     \r\n
+Action.c(28): t=261426ms: 526-byte response headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3562)
+Action.c(28):     HTTP/1.1 200 OK\r\n
+Action.c(28):     Cache-Control: private, max-age=0\r\n
+Action.c(28):     Content-Length: 40474\r\n
+Action.c(28):     Content-Type: text/html; charset=utf-8\r\n
+Action.c(28):     Content-Encoding: gzip\r\n
+Action.c(28):     Vary: Accept-Encoding\r\n
+Action.c(28):     P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"\r\n
+Action.c(28):     Set-Cookie: MUIDB=0F7E176E748B60A828E90512758361C7; expires=Wed, 10-Jan-2024 03:47:32 GMT;
+Action.c(28):      path=/; HttpOnly\r\n
+Action.c(28):     X-UA-Compatible: IE=edge\r\n
+Action.c(28):     X-Cache: CONFIG_NOCACHE\r\n
+Action.c(28):     X-MSEdge-Ref: Ref A: 1FA4D68B930D45B6947846CE6BEDB824 Ref B: HKBEDGE0517 Ref C: 2022-12-16
+Action.c(28):     T03:47:32Z\r\n
+Action.c(28):     Date: Fri, 16 Dec 2022 03:47:31 GMT\r\n
+Action.c(28):     \r\n
+Action.c(28): Resource "http://www.bing.com/rp/MDr1f9aJs4rBVf1F5DAtlALvweY.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(28): Resource "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(28): Resource "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(28): Resource "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(28): t=261430ms: Request done "http://www.bing.com/"  	[MsgId: MMSG-26000]
+Action.c(28): web_url("web_url") was successful, 40474 body bytes, 750 header bytes  	[MsgId: MMSG-26386]
+Action.c(35): Notify: Transaction "Test3" ended with a "Pass" status (Duration: 0.1421).	[MsgId: MMSG-16873]
+Action.c(38): Notify: Transaction "Test4" started.	[MsgId: MMSG-16999]
+Action.c(40): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(40): t=261430ms: Already connected [0] to bing.com:80  	[MsgId: MMSG-26000]
+Action.c(40): t=261430ms: 462-byte request headers for "http://bing.com" (RelFrameId=1, Internal ID=3563)
+Action.c(40):     GET / HTTP/1.1\r\n
+Action.c(40):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(40):     Accept-Encoding: gzip, deflate\r\n
+Action.c(40):     Accept: */*\r\n
+Action.c(40):     Connection: Keep-Alive\r\n
+Action.c(40):     Host: bing.com\r\n
+Action.c(40):     Cookie: SUID=M; MUID=0F7E176E748B60A828E90512758361C7; _EDGE_S=F=1&SID=2897A77AD3096DCA26B
+Action.c(40):     BB506D2016C0F; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID=V=2&GUID=2D891055E388427EBDCBDA439ADDE5
+Action.c(40):     9B&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCHLANG=vi; _SS=SID=2897A77AD3096DCA26BBB50
+Action.c(40):     6D2016C0F\r\n
+Action.c(40):     \r\n
+Action.c(40): t=261470ms: 224-byte response headers for "http://bing.com" (RelFrameId=1, Internal ID=3563)
+Action.c(40):     HTTP/1.1 301 Moved Permanently\r\n
+Action.c(40):     Location: http://www.bing.com/\r\n
+Action.c(40):     X-MSEdge-Ref: Ref A: 1A14B6F0F29F4340935DFAC2C2A6DB72 Ref B: HKBEDGE0508 Ref C: 2022-12-16
+Action.c(40):     T03:47:32Z\r\n
+Action.c(40):     Date: Fri, 16 Dec 2022 03:47:31 GMT\r\n
+Action.c(40):     Content-Length: 0\r\n
+Action.c(40):     \r\n
+Action.c(40): Redirecting "http://bing.com" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(40): To location "http://www.bing.com/"  	[MsgId: MMSG-26693]
+Action.c(40): t=261471ms: Request done "http://bing.com"  	[MsgId: MMSG-26000]
+Action.c(40): t=261471ms: Already connected [1] to www.bing.com:80  	[MsgId: MMSG-26000]
+Action.c(40): t=261472ms: 506-byte request headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3564)
+Action.c(40):     GET / HTTP/1.1\r\n
+Action.c(40):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(40):     Accept-Encoding: gzip, deflate\r\n
+Action.c(40):     Accept: */*\r\n
+Action.c(40):     Connection: Keep-Alive\r\n
+Action.c(40):     Host: www.bing.com\r\n
+Action.c(40):     Cookie: SUID=M; MUID=0F7E176E748B60A828E90512758361C7; MUIDB=0F7E176E748B60A828E9051275836
+Action.c(40):     1C7; _EDGE_S=F=1&SID=2897A77AD3096DCA26BBB506D2016C0F; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID
+Action.c(40):     =V=2&GUID=2D891055E388427EBDCBDA439ADDE59B&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCH
+Action.c(40):     LANG=vi; _SS=SID=2897A77AD3096DCA26BBB506D2016C0F\r\n
+Action.c(40):     \r\n
+Action.c(40): t=261569ms: 526-byte response headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3564)
+Action.c(40):     HTTP/1.1 200 OK\r\n
+Action.c(40):     Cache-Control: private, max-age=0\r\n
+Action.c(40):     Content-Length: 40474\r\n
+Action.c(40):     Content-Type: text/html; charset=utf-8\r\n
+Action.c(40):     Content-Encoding: gzip\r\n
+Action.c(40):     Vary: Accept-Encoding\r\n
+Action.c(40):     P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"\r\n
+Action.c(40):     Set-Cookie: MUIDB=0F7E176E748B60A828E90512758361C7; expires=Wed, 10-Jan-2024 03:47:32 GMT;
+Action.c(40):      path=/; HttpOnly\r\n
+Action.c(40):     X-UA-Compatible: IE=edge\r\n
+Action.c(40):     X-Cache: CONFIG_NOCACHE\r\n
+Action.c(40):     X-MSEdge-Ref: Ref A: F468384E11BE4101AA07EBB614BCE76F Ref B: HKBEDGE0517 Ref C: 2022-12-16
+Action.c(40):     T03:47:32Z\r\n
+Action.c(40):     Date: Fri, 16 Dec 2022 03:47:31 GMT\r\n
+Action.c(40):     \r\n
+Action.c(40): Resource "http://www.bing.com/rp/MDr1f9aJs4rBVf1F5DAtlALvweY.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): Resource "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(40): t=261572ms: Request done "http://www.bing.com/"  	[MsgId: MMSG-26000]
+Action.c(40): web_url("web_url") was successful, 40474 body bytes, 750 header bytes  	[MsgId: MMSG-26386]
+Action.c(47): Notify: Transaction "Test4" ended with a "Pass" status (Duration: 0.1424).	[MsgId: MMSG-16873]
+Action.c(50): Notify: Transaction "Test5" started.	[MsgId: MMSG-16999]
+Action.c(52): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(52): t=261573ms: Already connected [0] to bing.com:80  	[MsgId: MMSG-26000]
+Action.c(52): t=261573ms: 462-byte request headers for "http://bing.com" (RelFrameId=1, Internal ID=3565)
+Action.c(52):     GET / HTTP/1.1\r\n
+Action.c(52):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(52):     Accept-Encoding: gzip, deflate\r\n
+Action.c(52):     Accept: */*\r\n
+Action.c(52):     Connection: Keep-Alive\r\n
+Action.c(52):     Host: bing.com\r\n
+Action.c(52):     Cookie: SUID=M; MUID=0F7E176E748B60A828E90512758361C7; _EDGE_S=F=1&SID=2897A77AD3096DCA26B
+Action.c(52):     BB506D2016C0F; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID=V=2&GUID=2D891055E388427EBDCBDA439ADDE5
+Action.c(52):     9B&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCHLANG=vi; _SS=SID=2897A77AD3096DCA26BBB50
+Action.c(52):     6D2016C0F\r\n
+Action.c(52):     \r\n
+Action.c(52): t=261614ms: 224-byte response headers for "http://bing.com" (RelFrameId=1, Internal ID=3565)
+Action.c(52):     HTTP/1.1 301 Moved Permanently\r\n
+Action.c(52):     Location: http://www.bing.com/\r\n
+Action.c(52):     X-MSEdge-Ref: Ref A: 13E0CDB4CB2A4ACA85D73B6A3C25EE57 Ref B: HKBEDGE0508 Ref C: 2022-12-16
+Action.c(52):     T03:47:32Z\r\n
+Action.c(52):     Date: Fri, 16 Dec 2022 03:47:31 GMT\r\n
+Action.c(52):     Content-Length: 0\r\n
+Action.c(52):     \r\n
+Action.c(52): Redirecting "http://bing.com" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(52): To location "http://www.bing.com/"  	[MsgId: MMSG-26693]
+Action.c(52): t=261615ms: Request done "http://bing.com"  	[MsgId: MMSG-26000]
+Action.c(52): t=261615ms: Already connected [1] to www.bing.com:80  	[MsgId: MMSG-26000]
+Action.c(52): t=261615ms: 506-byte request headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3566)
+Action.c(52):     GET / HTTP/1.1\r\n
+Action.c(52):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(52):     Accept-Encoding: gzip, deflate\r\n
+Action.c(52):     Accept: */*\r\n
+Action.c(52):     Connection: Keep-Alive\r\n
+Action.c(52):     Host: www.bing.com\r\n
+Action.c(52):     Cookie: SUID=M; MUID=0F7E176E748B60A828E90512758361C7; MUIDB=0F7E176E748B60A828E9051275836
+Action.c(52):     1C7; _EDGE_S=F=1&SID=2897A77AD3096DCA26BBB506D2016C0F; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID
+Action.c(52):     =V=2&GUID=2D891055E388427EBDCBDA439ADDE59B&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCH
+Action.c(52):     LANG=vi; _SS=SID=2897A77AD3096DCA26BBB506D2016C0F\r\n
+Action.c(52):     \r\n
+Action.c(52): t=261751ms: 526-byte response headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3566)
+Action.c(52):     HTTP/1.1 200 OK\r\n
+Action.c(52):     Cache-Control: private, max-age=0\r\n
+Action.c(52):     Content-Length: 40471\r\n
+Action.c(52):     Content-Type: text/html; charset=utf-8\r\n
+Action.c(52):     Content-Encoding: gzip\r\n
+Action.c(52):     Vary: Accept-Encoding\r\n
+Action.c(52):     P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"\r\n
+Action.c(52):     Set-Cookie: MUIDB=0F7E176E748B60A828E90512758361C7; expires=Wed, 10-Jan-2024 03:47:32 GMT;
+Action.c(52):      path=/; HttpOnly\r\n
+Action.c(52):     X-UA-Compatible: IE=edge\r\n
+Action.c(52):     X-Cache: CONFIG_NOCACHE\r\n
+Action.c(52):     X-MSEdge-Ref: Ref A: 54CD02D56E36450285914D86C87CFBDE Ref B: HKBEDGE0517 Ref C: 2022-12-16
+Action.c(52):     T03:47:32Z\r\n
+Action.c(52):     Date: Fri, 16 Dec 2022 03:47:31 GMT\r\n
+Action.c(52):     \r\n
+Action.c(52): Resource "http://www.bing.com/rp/MDr1f9aJs4rBVf1F5DAtlALvweY.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(52): Resource "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(52): Resource "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(52): Resource "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(52): t=261757ms: Request done "http://www.bing.com/"  	[MsgId: MMSG-26000]
+Action.c(52): web_url("web_url") was successful, 40471 body bytes, 750 header bytes  	[MsgId: MMSG-26386]
+Action.c(59): Notify: Transaction "Test5" ended with a "Pass" status (Duration: 0.1846).	[MsgId: MMSG-16873]
+Action.c(62): Notify: Transaction "Test6" started.	[MsgId: MMSG-16999]
+Action.c(64): web_url("web_url") started  	[MsgId: MMSG-26355]
+Action.c(64): t=261757ms: Already connected [0] to bing.com:80  	[MsgId: MMSG-26000]
+Action.c(64): t=261757ms: 462-byte request headers for "http://bing.com" (RelFrameId=1, Internal ID=3567)
+Action.c(64):     GET / HTTP/1.1\r\n
+Action.c(64):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(64):     Accept-Encoding: gzip, deflate\r\n
+Action.c(64):     Accept: */*\r\n
+Action.c(64):     Connection: Keep-Alive\r\n
+Action.c(64):     Host: bing.com\r\n
+Action.c(64):     Cookie: SUID=M; MUID=0F7E176E748B60A828E90512758361C7; _EDGE_S=F=1&SID=2897A77AD3096DCA26B
+Action.c(64):     BB506D2016C0F; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID=V=2&GUID=2D891055E388427EBDCBDA439ADDE5
+Action.c(64):     9B&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCHLANG=vi; _SS=SID=2897A77AD3096DCA26BBB50
+Action.c(64):     6D2016C0F\r\n
+Action.c(64):     \r\n
+Action.c(64): t=261798ms: 224-byte response headers for "http://bing.com" (RelFrameId=1, Internal ID=3567)
+Action.c(64):     HTTP/1.1 301 Moved Permanently\r\n
+Action.c(64):     Location: http://www.bing.com/\r\n
+Action.c(64):     X-MSEdge-Ref: Ref A: A67432EBEA5247F7B5ED08CD9B941163 Ref B: HKBEDGE0508 Ref C: 2022-12-16
+Action.c(64):     T03:47:32Z\r\n
+Action.c(64):     Date: Fri, 16 Dec 2022 03:47:32 GMT\r\n
+Action.c(64):     Content-Length: 0\r\n
+Action.c(64):     \r\n
+Action.c(64): Redirecting "http://bing.com" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(64): To location "http://www.bing.com/"  	[MsgId: MMSG-26693]
+Action.c(64): t=261799ms: Request done "http://bing.com"  	[MsgId: MMSG-26000]
+Action.c(64): t=261799ms: Already connected [1] to www.bing.com:80  	[MsgId: MMSG-26000]
+Action.c(64): t=261799ms: 506-byte request headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3568)
+Action.c(64):     GET / HTTP/1.1\r\n
+Action.c(64):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Action.c(64):     Accept-Encoding: gzip, deflate\r\n
+Action.c(64):     Accept: */*\r\n
+Action.c(64):     Connection: Keep-Alive\r\n
+Action.c(64):     Host: www.bing.com\r\n
+Action.c(64):     Cookie: SUID=M; MUID=0F7E176E748B60A828E90512758361C7; MUIDB=0F7E176E748B60A828E9051275836
+Action.c(64):     1C7; _EDGE_S=F=1&SID=2897A77AD3096DCA26BBB506D2016C0F; _EDGE_V=1; SRCHD=AF=NOFORM; SRCHUID
+Action.c(64):     =V=2&GUID=2D891055E388427EBDCBDA439ADDE59B&dmnchg=1; SRCHUSR=DOB=20221216; SRCHHPGUSR=SRCH
+Action.c(64):     LANG=vi; _SS=SID=2897A77AD3096DCA26BBB506D2016C0F\r\n
+Action.c(64):     \r\n
+Action.c(64): t=261898ms: 526-byte response headers for "http://www.bing.com/" (RelFrameId=1, Internal ID=3568)
+Action.c(64):     HTTP/1.1 200 OK\r\n
+Action.c(64):     Cache-Control: private, max-age=0\r\n
+Action.c(64):     Content-Length: 40474\r\n
+Action.c(64):     Content-Type: text/html; charset=utf-8\r\n
+Action.c(64):     Content-Encoding: gzip\r\n
+Action.c(64):     Vary: Accept-Encoding\r\n
+Action.c(64):     P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"\r\n
+Action.c(64):     Set-Cookie: MUIDB=0F7E176E748B60A828E90512758361C7; expires=Wed, 10-Jan-2024 03:47:32 GMT;
+Action.c(64):      path=/; HttpOnly\r\n
+Action.c(64):     X-UA-Compatible: IE=edge\r\n
+Action.c(64):     X-Cache: CONFIG_NOCACHE\r\n
+Action.c(64):     X-MSEdge-Ref: Ref A: 86442D116BFF4FACB7E54BEF40BAEF53 Ref B: HKBEDGE0517 Ref C: 2022-12-16
+Action.c(64):     T03:47:32Z\r\n
+Action.c(64):     Date: Fri, 16 Dec 2022 03:47:31 GMT\r\n
+Action.c(64):     \r\n
+Action.c(64): Resource "http://www.bing.com/rp/MDr1f9aJs4rBVf1F5DAtlALvweY.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(64): Resource "http://www.bing.com/rp/hceflue5sqxkKta9dP3R-IFtPuY.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(64): Resource "http://www.bing.com/rp/a282eRIAnHsW_URoyogdzsukm_o.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(64): Resource "http://www.bing.com/rp/svI82uPNFRD54V4bMLaeahXQXBI.gz.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(64): t=261901ms: Request done "http://www.bing.com/"  	[MsgId: MMSG-26000]
+Action.c(64): web_url("web_url") was successful, 40474 body bytes, 750 header bytes  	[MsgId: MMSG-26386]
+Action.c(71): Notify: Transaction "Test6" ended with a "Pass" status (Duration: 0.1439).	[MsgId: MMSG-16873]
+Ending action Action.	[MsgId: MMSG-15918]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+t=261902ms: Closed connection [0] to bing.com:80 after completing 5 request(s)  	[MsgId: MMSG-26000]
+t=261902ms: Closed connection [1] to www.bing.com:80 after completing 6 request(s)  	[MsgId: MMSG-26000]
+t=261903ms: Closed connection [2] to www.bing.com:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+t=261903ms: Closed connection [3] to www.bing.com:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+t=261903ms: Closed connection [4] to www.bing.com:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=2, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 31104), ended OK."	[MsgId: MMSG-10695]

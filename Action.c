@@ -21,7 +21,7 @@ Action()
 		"Referer=",
 		LAST);
 
-	lr_end_transaction("Test2", LR_AUTO);
+	lr_end_transaction("Test2", LR_STOP);
 	
 	lr_start_transaction("Test3");
 

@@ -1,0 +1,87 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: web_url",
+                "infFile": "t1.inf",
+                "time": 1688542792514
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: web_url",
+                "infFile": "t2.inf",
+                "time": 1688542792935
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: web_url",
+                "infFile": "t3.inf",
+                "time": 1688542793378
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: web_url",
+                "infFile": "t4.inf",
+                "time": 1688542793840
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: web_url",
+                "infFile": "t5.inf",
+                "time": 1688542794266
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: web_url",
+                "infFile": "t6.inf",
+                "time": 1688542794765
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Test1",
+                "rawStartTime": 1688542790500,
+                "rawEndTime": 1688542792521,
+                "thinkTime": 0.0,
+                "wastedTime": 0.423736572265625
+            },
+            {
+                "transactionName": "Test2",
+                "rawStartTime": 1688542792537,
+                "rawEndTime": 1688542792941,
+                "thinkTime": 0.0,
+                "wastedTime": 0.022731781005859376
+            },
+            {
+                "transactionName": "Test3",
+                "rawStartTime": 1688542792957,
+                "rawEndTime": 1688542793391,
+                "thinkTime": 0.0,
+                "wastedTime": 0.030531644821166993
+            },
+            {
+                "transactionName": "Test4",
+                "rawStartTime": 1688542793407,
+                "rawEndTime": 1688542793856,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02713799476623535
+            },
+            {
+                "transactionName": "Test5",
+                "rawStartTime": 1688542793872,
+                "rawEndTime": 1688542794276,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0202181339263916
+            },
+            {
+                "transactionName": "Test6",
+                "rawStartTime": 1688542794292,
+                "rawEndTime": 1688542794771,
+                "thinkTime": 0.0,
+                "wastedTime": 0.05724287033081055
+            }
+        ]
+    }
+]
