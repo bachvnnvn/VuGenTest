@@ -40,7 +40,7 @@ Action()
 		web_url("web_url",
 		"URL=http://bing.com",
 		"TargetFrame=",
-		"Resource=0",
+		"Resource=1",
 		"Referer=",
 		LAST);
 
