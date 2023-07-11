@@ -21,7 +21,7 @@ Action()
 }*/
 #include "web_api.h"
 
-const int intWaitLimit = 300;
+const int intWaitLimit = 30;
 //int intPollInterval, intWaitTime, rc;
 int find_cnt, rc;
 char buf[64];
