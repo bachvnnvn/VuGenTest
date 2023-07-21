@@ -1,0 +1,13 @@
+[t3]
+SnapshotXmlFile=snapshot_3.xml
+ContentType=text/html
+StepName=Url: web_url
+Total=1
+FileName1=t3.html
+RequestHeaderFile=t3_RequestHeader.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+RawStepEndTime=1688542793344
+RawStepName=web_url
+RequestBodyFile=t3_RequestBody.txt
+RawStepStartTime=1688542792972
+URL1=http://www.bing.com/

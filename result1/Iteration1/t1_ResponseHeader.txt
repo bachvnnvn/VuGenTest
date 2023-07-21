@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Length: 44986
+Content-Type: text/html; charset=utf-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+P3P: CP="NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND"
+Set-Cookie: SUID=M; domain=.bing.com; expires=Wed, 05-Jul-2023 19:39:52 GMT; path=/; HttpOnly
+Set-Cookie: MUID=04A38F41E1C7652B1DE09C04E0C6644D; domain=.bing.com; expires=Mon, 29-Jul-2024 07:39:52 GMT; path=/
+Set-Cookie: MUIDB=04A38F41E1C7652B1DE09C04E0C6644D; expires=Mon, 29-Jul-2024 07:39:52 GMT; path=/; HttpOnly
+Set-Cookie: _EDGE_S=F=1&SID=13CA5A885C6F616F167349CD5D6E601C; domain=.bing.com; path=/; HttpOnly
+Set-Cookie: _EDGE_V=1; domain=.bing.com; expires=Mon, 29-Jul-2024 07:39:52 GMT; path=/; HttpOnly
+Set-Cookie: SRCHD=AF=NOFORM; domain=.bing.com; expires=Sat, 05-Jul-2025 07:39:52 GMT; path=/
+Set-Cookie: SRCHUID=V=2&GUID=05D158762FF249CB9D1FF17B8D802D63&dmnchg=1; domain=.bing.com; expires=Sat, 05-Jul-2025 07:39:52 GMT; path=/
+Set-Cookie: SRCHUSR=DOB=20230705; domain=.bing.com; expires=Sat, 05-Jul-2025 07:39:52 GMT; path=/
+Set-Cookie: SRCHHPGUSR=SRCHLANG=vi; domain=.bing.com; expires=Sat, 05-Jul-2025 07:39:52 GMT; path=/
+Set-Cookie: _SS=SID=13CA5A885C6F616F167349CD5D6E601C; domain=.bing.com; path=/
+X-EventID: 64a51e485b984551a8756c07e2ea37f7
+UserAgentReductionOptOut: A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=
+X-UA-Compatible: IE=edge
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: BB6133AD63294C8EA77A73169A74DF9D Ref B: SIN30EDGE0306 Ref C: 2023-07-05T07:39:52Z
+Date: Wed, 05 Jul 2023 07:39:51 GMT
+
